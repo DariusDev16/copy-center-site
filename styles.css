@@ -190,12 +190,14 @@ input:focus-visible {
 
 .brand {
   flex: none;
-  font-size: 25px;
-  font-weight: 800;
-  line-height: 1;
-  letter-spacing: -.035em;
-  color: var(--ink);
-  white-space: nowrap;
+  display: block;
+  line-height: 0;
+}
+
+.brand img {
+  display: block;
+  width: 60px;
+  height: 60px;
 }
 
 .menu-btn,
@@ -1229,14 +1231,16 @@ body.nav-open .backdrop {
   padding: 48px 24px 40px;
 }
 
-.footer-brand__name {
+.footer-brand__logo-link {
   display: inline-block;
   margin-bottom: 14px;
-  color: var(--ink);
-  font-size: 22px;
-  font-weight: 800;
-  letter-spacing: -.035em;
-  line-height: 1;
+  line-height: 0;
+}
+
+.footer-brand__logo {
+  display: block;
+  width: 72px;
+  height: 72px;
 }
 
 .footer-brand p {
@@ -1353,9 +1357,14 @@ body.nav-open .backdrop {
 
   .brand {
     flex: 1;
+    display: flex;
+    justify-content: center;
     margin-right: 0;
-    font-size: 22px;
-    text-align: center;
+  }
+
+  .brand img {
+    width: 52px;
+    height: 52px;
   }
 
   .account {
@@ -1602,8 +1611,9 @@ body.nav-open .backdrop {
     min-height: 60px;
   }
 
-  .brand {
-    font-size: 20px;
+  .brand img {
+    width: 44px;
+    height: 44px;
   }
 
   .menu-btn,

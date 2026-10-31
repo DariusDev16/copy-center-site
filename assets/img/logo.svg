@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1600" width="1600" height="1600">
+  <title>Copy Center - Centro de Cópias</title>
+  <defs>
+    <linearGradient id="g2" gradientUnits="userSpaceOnUse" x1="880" y1="200" x2="1230" y2="260">
+      <stop offset="0" stop-color="#d52f33"/>
+      <stop offset="1" stop-color="#f9e800"/>
+    </linearGradient>
+    <linearGradient id="g4" gradientUnits="userSpaceOnUse" x1="200" y1="560" x2="450" y2="200">
+      <stop offset="0" stop-color="#cc0066"/>
+      <stop offset="1" stop-color="#d32d35"/>
+    </linearGradient>
+    <linearGradient id="g6" gradientUnits="userSpaceOnUse" x1="150" y1="880" x2="230" y2="1200">
+      <stop offset="0" stop-color="#cc0066"/>
+      <stop offset="1" stop-color="#2f0346"/>
+    </linearGradient>
+    <linearGradient id="g8" gradientUnits="userSpaceOnUse" x1="560" y1="1400" x2="900" y2="1450">
+      <stop offset="0" stop-color="#42244f"/>
+      <stop offset="1" stop-color="#4b66ae"/>
+    </linearGradient>
+    <linearGradient id="g9" gradientUnits="userSpaceOnUse" x1="920" y1="1450" x2="1220" y2="1330">
+      <stop offset="0" stop-color="#4b66ae"/>
+      <stop offset="1" stop-color="#489bd6"/>
+    </linearGradient>
+  </defs>
+  <circle cx="800" cy="800" r="800" fill="#fff"/>
+  <path d="M1288.8 237.7A745 745 0 0 1 1513.6 585.9L1343.1 637.1A567 567 0 0 0 1172.0 372.1Z" fill="#f9e800"/>
+  <path d="M870.1 58.3A745 745 0 0 1 1288.8 237.7L1172.0 372.1A567 567 0 0 0 853.4 235.5Z" fill="url(#g2)"/>
+  <path d="M444.5 145.3A745 745 0 0 1 870.1 58.3L853.4 235.5A567 567 0 0 0 529.5 301.7Z" fill="#d32d35"/>
+  <path d="M150.3 435.4A745 745 0 0 1 444.5 145.3L529.5 301.7A567 567 0 0 0 305.5 522.5Z" fill="url(#g4)"/>
+  <path d="M56.1 840.3A745 745 0 0 1 150.3 435.4L305.5 522.5A567 567 0 0 0 233.8 830.7Z" fill="#cc0066"/>
+  <path d="M195.0 1234.7A745 745 0 0 1 56.1 840.3L233.8 830.7A567 567 0 0 0 339.5 1130.9Z" fill="url(#g6)"/>
+  <path d="M510.1 1486.3A745 745 0 0 1 195.0 1234.7L339.5 1130.9A567 567 0 0 0 579.4 1322.3Z" fill="#42244f"/>
+  <path d="M896.0 1538.8A745 745 0 0 1 510.1 1486.3L579.4 1322.3A567 567 0 0 0 873.0 1362.3Z" fill="url(#g8)"/>
+  <path d="M1278.9 1370.7A745 745 0 0 1 896.0 1538.8L873.0 1362.3A567 567 0 0 0 1164.5 1234.3Z" fill="url(#g9)"/>
+  <path d="M1513.6 1014.1A745 745 0 0 1 1278.9 1370.7L1164.5 1234.3A567 567 0 0 0 1343.1 962.9Z" fill="#489bd6"/>
+  <line x1="1168.7" y1="375.9" x2="1292.0" y2="234.0" stroke="#fff" stroke-width="13"/>
+  <line x1="852.9" y1="240.5" x2="870.6" y2="53.3" stroke="#fff" stroke-width="13"/>
+  <line x1="531.8" y1="306.1" x2="442.1" y2="140.9" stroke="#fff" stroke-width="13"/>
+  <line x1="309.9" y1="525.0" x2="145.9" y2="433.0" stroke="#fff" stroke-width="13"/>
+  <line x1="238.8" y1="830.4" x2="51.1" y2="840.6" stroke="#fff" stroke-width="13"/>
+  <line x1="343.6" y1="1128.0" x2="190.9" y2="1237.7" stroke="#fff" stroke-width="13"/>
+  <line x1="581.3" y1="1317.7" x2="508.2" y2="1490.9" stroke="#fff" stroke-width="13"/>
+  <line x1="872.4" y1="1357.3" x2="896.6" y2="1543.8" stroke="#fff" stroke-width="13"/>
+  <line x1="1161.2" y1="1230.5" x2="1282.1" y2="1374.5" stroke="#fff" stroke-width="13"/>
+  <circle cx="800" cy="800" r="445" fill="#000"/>
+  <path d="M690.6 714.8A101 101 0 1 1 690.6 639.2" fill="none" stroke="#fff" stroke-width="30"/>
+  <line x1="563.6" y1="605.4" x2="545.0" y2="565.5" stroke="#000" stroke-width="8"/>
+  <line x1="597.0" y1="598.0" x2="597.0" y2="554.0" stroke="#000" stroke-width="8"/>
+  <line x1="649.9" y1="618.3" x2="679.3" y2="585.6" stroke="#000" stroke-width="8"/>
+  <line x1="528.6" y1="637.5" x2="490.5" y2="615.5" stroke="#000" stroke-width="8"/>
+  <line x1="518.0" y1="677.0" x2="474.0" y2="677.0" stroke="#000" stroke-width="8"/>
+  <line x1="528.6" y1="716.5" x2="490.5" y2="738.5" stroke="#000" stroke-width="8"/>
+  <line x1="559.9" y1="746.8" x2="539.3" y2="785.6" stroke="#000" stroke-width="8"/>
+  <line x1="586.0" y1="755.2" x2="579.9" y2="798.8" stroke="#000" stroke-width="8"/>
+  <line x1="649.9" y1="735.7" x2="679.3" y2="768.4" stroke="#000" stroke-width="8"/>
+  <g fill="#fff" font-family="Montserrat, 'Century Gothic', 'Segoe UI', Arial, sans-serif">
+    <text x="760" y="660" font-size="112" font-weight="400" textLength="360" lengthAdjust="spacing">OPY</text>
+    <text x="760" y="778" font-size="112" font-weight="700" textLength="358" lengthAdjust="spacingAndGlyphs">ENTER</text>
+    <text x="485" y="970" font-size="72" font-weight="300" textLength="630" lengthAdjust="spacing">Centro de Cópias</text>
+  </g>
+  <g>
+    <rect x="480" y="862" width="644" height="3.5" fill="#fff"/>
+    <rect x="480" y="871" width="644" height="3.5" fill="#fff"/>
+    <rect x="480" y="880" width="644" height="3.5" fill="#fff"/>
+    <rect x="480" y="889" width="644" height="3.5" fill="#fff"/>
+    <rect x="480" y="1009" width="644" height="3.5" fill="#fff"/>
+    <rect x="480" y="1018" width="644" height="3.5" fill="#fff"/>
+    <rect x="480" y="1027" width="644" height="3.5" fill="#fff"/>
+    <rect x="480" y="1036" width="644" height="3.5" fill="#fff"/>
+  </g>
+</svg>
