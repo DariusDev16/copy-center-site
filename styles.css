@@ -778,6 +778,34 @@ body.nav-open .backdrop {
   font-size: 12px;
 }
 
+/* Add to Cart button inside product cards */
+.product-card__add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 12px;
+  padding: 8px 12px;
+  background: var(--green);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.product-card__add:hover {
+  background: #219a3d;
+}
+
+.product-card__add .icon {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
 .badge {
   position: absolute;
   top: 8px;
