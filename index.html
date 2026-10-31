@@ -1,0 +1,697 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Copy Center | Impressão e brindes personalizados</title>
+  <meta name="description" content="Copy Center: cartões de visita, flyers, agendas, calendários, esferográficas, sacos e têxtil personalizados. Mostramos a maquete antes da produção.">
+  <link rel="icon" href="data:,">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-search" viewBox="0 0 24 24"><path d="m20 20-4.2-4.2M18 10.8a7.2 7.2 0 1 1-14.4 0 7.2 7.2 0 0 1 14.4 0"/></symbol>
+      <symbol id="i-user" viewBox="0 0 24 24"><path d="M20 20a8 8 0 0 0-16 0M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8"/></symbol>
+      <symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8h14l-1 13H6L5 8ZM9 9V6a3 3 0 0 1 6 0v3"/></symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+      <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+      <symbol id="i-left" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></symbol>
+      <symbol id="i-right" viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></symbol>
+      <symbol id="i-up-right" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></symbol>
+      <symbol id="i-image" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="m21 15-5-5L5 20"/></symbol>
+      <symbol id="i-truck" viewBox="0 0 24 24"><path d="M3 6h11v10H3zM14 9h4l3 3v4h-7z"/><circle cx="7" cy="18" r="1.7"/><circle cx="17.5" cy="18" r="1.7"/></symbol>
+      <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19a5.5 5.5 0 0 1 11 0M16 5.4a3.2 3.2 0 0 1 0 5.2M17.5 14.4A5.5 5.5 0 0 1 21 19"/></symbol>
+      <symbol id="i-file-check" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4M9 14l2 2 4-4"/></symbol>
+      <symbol id="i-shield-check" viewBox="0 0 24 24"><path d="M12 3 5 5.8v5.4c0 4.4 2.9 8.3 7 9.8 4.1-1.5 7-5.4 7-9.8V5.8z"/><path d="m9 12 2.2 2.2L15.2 10"/></symbol>
+      <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.2l2.6 5.4 5.9.8-4.3 4.1 1 5.9L12 16.6l-5.2 2.8 1-5.9L3.5 9.4l5.9-.8z"/></symbol>
+      <symbol id="i-layers" viewBox="0 0 24 24"><path d="M12 3 3 7.5l9 4.5 9-4.5zM3 12l9 4.5 9-4.5M3 16.5 12 21l9-4.5"/></symbol>
+      <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5.5h16v10.5H10.5L6 20v-4H4z"/><path d="M8.5 9.5h7M8.5 12.5h4.5"/></symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.5 3.5h3l1.5 4-2 1.5a11 11 0 0 0 6 6l1.5-2 4 1.5v3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.5 5.7a2 2 0 0 1 2-2.2z"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3.5" y="6" width="17" height="12" rx="1"/><path d="m4 6.5 8 6.5 8-6.5"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s6.5-5.8 6.5-11a6.5 6.5 0 0 0-13 0c0 5.2 6.5 11 6.5 11z"/><circle cx="12" cy="10" r="2.3"/></symbol>
+    </defs>
+  </svg>
+
+  <div class="shell">
+    <div class="announcement">
+      <span>Produção personalizada · Apoio antes e depois da compra</span>
+      <a class="announcement__phone" href="tel:210000000">Ligue 210 000 000</a>
+    </div>
+
+    <header class="site-header">
+      <div class="header-main">
+        <button class="menu-btn" type="button" aria-label="Abrir menu" aria-controls="drawer" aria-expanded="false" data-menu-toggle>
+          <svg class="icon"><use href="#i-menu"/></svg>
+        </button>
+
+        <a class="brand" href="#" aria-label="Copy Center — início">Copy Center</a>
+
+        <form class="search" role="search" action="#" method="get">
+          <label class="sr-only" for="q">Procurar produtos</label>
+          <input id="q" type="search" name="s" placeholder="O que procura?" required>
+          <button type="submit" aria-label="Pesquisar">
+            <svg class="icon"><use href="#i-search"/></svg>
+          </button>
+        </form>
+
+        <div class="actions">
+          <a class="icon-btn account" href="#" aria-label="A minha conta">
+            <svg class="icon"><use href="#i-user"/></svg>
+          </a>
+          <a class="icon-btn cart" href="#" aria-label="Carrinho, 0 produtos">
+            <svg class="icon"><use href="#i-bag"/></svg>
+            <span class="cart__count">0</span>
+          </a>
+        </div>
+      </div>
+
+      <nav class="main-nav" aria-label="Menu principal">
+        <ul class="nav-links">
+          <li><a href="#">Impressão &amp; Papelaria</a></li>
+          <li><a href="#">Publicidade &amp; Exposição</a></li>
+          <li class="has-sub">
+            <a href="#">Têxtil <svg class="chev"><use href="#i-chevron"/></svg></a>
+            <ul class="sub-menu">
+              <li><a href="#">Aventais</a></li>
+              <li><a href="#">Bonés</a></li>
+              <li><a href="#">Batas</a></li>
+              <li><a href="#">Casacos</a></li>
+              <li><a href="#">Coletes</a></li>
+              <li><a href="#">Jalecas</a></li>
+              <li><a href="#">Polos</a></li>
+              <li><a href="#">Sweatshirts</a></li>
+              <li><a href="#">T-shirts</a></li>
+              <li><a href="#">Calças</a></li>
+              <li><a href="#">Acessórios de Cozinha</a></li>
+            </ul>
+          </li>
+          <li class="has-sub">
+            <a href="#">Brindes <svg class="chev"><use href="#i-chevron"/></svg></a>
+            <ul class="sub-menu">
+              <li><a href="#">Sacos</a></li>
+              <li><a href="#">Esferográficas</a></li>
+            </ul>
+          </li>
+          <li class="has-sub">
+            <a href="#">Presentes <svg class="chev"><use href="#i-chevron"/></svg></a>
+            <ul class="sub-menu">
+              <li><a href="#">Agendas</a></li>
+              <li><a href="#">Calendários</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Agendas</a></li>
+          <li><a href="#">Calendários</a></li>
+          <li><a href="#">DTF</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <nav class="drawer" id="drawer" aria-label="Menu móvel" aria-hidden="true">
+      <div class="drawer__top">
+        <strong>Menu</strong>
+        <button class="icon-btn" type="button" aria-label="Fechar menu" data-menu-close>
+          <svg class="icon"><use href="#i-close"/></svg>
+        </button>
+      </div>
+      <ul class="drawer__links">
+        <li><a href="#">Impressão &amp; Papelaria</a></li>
+        <li><a href="#">Publicidade &amp; Exposição</a></li>
+        <li>
+          <a href="#">Têxtil</a>
+          <ul class="drawer__sub">
+            <li><a href="#">Aventais</a></li>
+            <li><a href="#">Bonés</a></li>
+            <li><a href="#">Batas</a></li>
+            <li><a href="#">Casacos</a></li>
+            <li><a href="#">Coletes</a></li>
+            <li><a href="#">Jalecas</a></li>
+            <li><a href="#">Polos</a></li>
+            <li><a href="#">Sweatshirts</a></li>
+            <li><a href="#">T-shirts</a></li>
+            <li><a href="#">Calças</a></li>
+            <li><a href="#">Acessórios de Cozinha</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Brindes</a>
+          <ul class="drawer__sub">
+            <li><a href="#">Sacos</a></li>
+            <li><a href="#">Esferográficas</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Presentes</a>
+          <ul class="drawer__sub">
+            <li><a href="#">Agendas</a></li>
+            <li><a href="#">Calendários</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Agendas</a></li>
+        <li><a href="#">Calendários</a></li>
+        <li><a href="#">DTF</a></li>
+      </ul>
+      <div class="drawer__bottom">
+        <a href="#">A minha conta</a>
+        <a href="#">Contactos</a>
+      </div>
+    </nav>
+    <div class="backdrop" aria-hidden="true" data-menu-close></div>
+
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <main id="conteudo">
+      <div class="home-intro">
+        <h1>Copy Center: impressão e brindes personalizados</h1>
+        <p>Cartões de visita, flyers, agendas, esferográficas, sacos e têxtil com o seu logótipo. Mostramos a maquete antes da produção.</p>
+      </div>
+
+      <div class="content">
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero__text">
+            <span class="hero__badge">Natal 2026 · para empresas</span>
+            <h2 class="hero__title" id="hero-title">
+              Calendários e agendas 2027
+              <span>com o logótipo da sua empresa</span>
+            </h2>
+            <p class="hero__sub">Envie-nos o logótipo. Mostramos a maquete antes da produção.</p>
+            <div class="hero__actions">
+              <a class="btn" href="#">Ver calendários e agendas</a>
+              <a class="btn btn--green" href="#">Pedir maquete pelo WhatsApp</a>
+            </div>
+            <ul class="chips">
+              <li>Maquete antes da produção</li>
+              <li>Levantamento na loja</li>
+              <li>4,9 ★ no Google (128)</li>
+            </ul>
+          </div>
+
+          <a class="offer" href="#">
+            <span class="offer__media">
+              <img src="assets/img/calendario-parede-furo.png" alt="Calendário de parede com furo" loading="lazy" decoding="async" width="300" height="300">
+            </span>
+            <span class="offer__name">Calendário de parede c/ furo · 100 un.</span>
+            <strong class="offer__price">0,75 €<small>/un.</small></strong>
+            <span class="offer__note">75,00 € as 100 unidades · s/ IVA</span>
+          </a>
+        </section>
+
+        <ol class="steps">
+          <li><strong>Escolha</strong><span>Calendário, agenda ou caneta, e a quantidade.</span></li>
+          <li><strong>Envie o logótipo</strong><span>Pelo site, por email ou pelo WhatsApp.</span></li>
+          <li><strong>Veja a maquete</strong><span>Mostramos a maquete antes da produção.</span></li>
+          <li><strong>Receba</strong><span>Ou levante na loja.</span></li>
+        </ol>
+
+        <section class="section" aria-labelledby="calendarios-title">
+          <h2 class="section-title" id="calendarios-title">Calendários 2027</h2>
+          <p class="section-note">Preço por encomenda, sem IVA.</p>
+          <div class="grid">
+            <a class="product-card" href="#">
+              <span class="product-card__media">
+                <span class="badge">Melhor preço</span>
+                <img src="assets/img/calendario-parede-furo.png" alt="Calendários de Parede c/ Furo" loading="lazy" decoding="async" width="300" height="300">
+              </span>
+              <span class="product-card__name">Calendários de Parede c/ Furo</span>
+              <span class="product-card__price"><b>75,00 €</b> <em>s/ IVA</em><small>100 unidades · 0,75 €/un.</small></span>
+            </a>
+            <a class="product-card" href="#">
+              <span class="product-card__media">
+                <img src="assets/img/calendario-parede-folhas.png" alt="Calendários de Parede c/ Folhas Destacáveis" loading="lazy" decoding="async" width="300" height="300">
+              </span>
+              <span class="product-card__name">Calendários de Parede c/ Folhas Destacáveis</span>
+              <span class="product-card__price"><b>80,00 €</b> <em>s/ IVA</em><small>50 unidades · 1,60 €/un.</small></span>
+            </a>
+            <a class="product-card" href="#">
+              <span class="product-card__media">
+                <img src="assets/img/calendario-triangular.png" alt="Calendário Triangular" loading="lazy" decoding="async" width="300" height="300">
+              </span>
+              <span class="product-card__name">Calendário Triangular</span>
+              <span class="product-card__price"><b>80,00 €</b> <em>s/ IVA</em><small>100 unidades · 0,80 €/un.</small></span>
+            </a>
+            <a class="product-card" href="#">
+              <span class="product-card__media">
+                <img src="assets/img/calendario-bolso.png" alt="Calendário de Bolso" loading="lazy" decoding="async" width="300" height="300">
+              </span>
+              <span class="product-card__name">Calendário de Bolso</span>
+              <span class="product-card__price"><b>100,00 €</b> <em>s/ IVA</em><small>1.000 unidades · 0,10 €/un.</small></span>
+            </a>
+          </div>
+        </section>
+
+        <section class="section" aria-labelledby="agendas-title">
+          <h2 class="section-title" id="agendas-title">Agendas e canetas com o seu logótipo</h2>
+          <p class="section-note">O brinde de Natal que os clientes usam o ano inteiro.</p>
+          <div class="grid">
+            <a class="product-card" href="#">
+              <span class="product-card__media">
+                <img src="assets/img/agenda-new-york.png" alt="Agenda Diária New York" loading="lazy" decoding="async" width="300" height="300">
+              </span>
+              <span class="product-card__name">Agenda Diária New York</span>
+              <span class="product-card__price"><b>8,01 €</b> <em>s/ IVA</em><small>por unidade</small></span>
+              <span class="swatches" aria-label="4 cores disponíveis">
+                <i style="background:#37475a"></i><i style="background:#8a6a58"></i><i style="background:#6e7d66"></i><i style="background:#b9a7a0"></i>
+              </span>
+            </a>
+            <a class="product-card" href="#">
+              <span class="product-card__media">
+                <img src="assets/img/agenda-tagore.png" alt="Agenda Diária Tagore" loading="lazy" decoding="async" width="300" height="300">
+              </span>
+              <span class="product-card__name">Agenda Diária Tagore</span>
+              <span class="product-card__price"><b>10,00 €</b> <em>s/ IVA</em><small>por unidade</small></span>
+            </a>
+            <a class="product-card" href="#">
+              <span class="product-card__media">
+                <img src="assets/img/esferografica-blacks.png" alt="Esferográfica Blacks" loading="lazy" decoding="async" width="300" height="300">
+              </span>
+              <span class="product-card__name">Esferográfica Blacks</span>
+              <span class="product-card__price"><b>34,30 €</b> <em>s/ IVA</em><small>50 unidades · 0,69 €/un.</small></span>
+              <span class="swatches" aria-label="8 cores disponíveis">
+                <i style="background:#f4d21f"></i><i style="background:#8ec3ea"></i><i style="background:#c9d3dd"></i><i style="background:#e6007e"></i><i style="background:#f08a24"></i><i style="background:#1c1c1c"></i><i style="background:#e9b7cf"></i><em class="swatches__more">+3</em>
+              </span>
+            </a>
+            <a class="product-card" href="#">
+              <span class="product-card__media">
+                <img src="assets/img/lapis-natal.png" alt="Lápis de Natal" loading="lazy" decoding="async" width="300" height="300">
+              </span>
+              <span class="product-card__name">Lápis de Natal</span>
+              <span class="product-card__price"><b>120,50 €</b> <em>s/ IVA</em><small>50 unidades · 2,41 €/un.</small></span>
+            </a>
+          </div>
+        </section>
+
+        <section class="section" aria-labelledby="mais-title">
+          <h2 class="section-title" id="mais-title">Mais vendidos</h2>
+          <div class="grid">
+            <a class="product-card" href="#">
+              <span class="product-card__media">
+                <img src="assets/img/cartao-visita.jpg" alt="Cartão de Visita" loading="lazy" decoding="async" width="300" height="300">
+              </span>
+              <span class="product-card__name">Cartão de Visita</span>
+              <span class="product-card__price"><b>10,57 €</b> <em>s/ IVA</em><small>100 unidades · 0,11 €/un.</small></span>
+            </a>
+            <a class="product-card" href="#">
+              <span class="product-card__media">
+                <img src="assets/img/flyers.jpg" alt="Flyers" loading="lazy" decoding="async" width="300" height="300">
+              </span>
+              <span class="product-card__name">Flyers</span>
+              <span class="product-card__price"><b>13,82 €</b> <em>s/ IVA</em><small>100 unidades · 0,14 €/un.</small></span>
+            </a>
+            <a class="product-card" href="#">
+              <span class="product-card__media">
+                <img src="assets/img/calendario-parede-furo.png" alt="Calendários de Parede c/ Furo" loading="lazy" decoding="async" width="300" height="300">
+              </span>
+              <span class="product-card__name">Calendários de Parede c/ Furo</span>
+              <span class="product-card__price"><b>75,00 €</b> <em>s/ IVA</em><small>100 unidades · 0,75 €/un.</small></span>
+            </a>
+            <a class="product-card" href="#">
+              <span class="product-card__media">
+                <img src="assets/img/textil.png" alt="Têxtil com o seu logótipo" loading="lazy" decoding="async" width="300" height="300">
+              </span>
+              <span class="product-card__name">Têxtil com o seu logótipo</span>
+              <span class="product-card__price"><b>5,69 €</b> <em>s/ IVA</em><small>t-shirts, polos, aventais</small></span>
+            </a>
+          </div>
+        </section>
+
+        <aside class="promo">
+          <div>
+            <strong>Já fez cartões de visita connosco?</strong>
+            <span>Já temos o seu logótipo. Peça a maquete do seu calendário 2027 pelo WhatsApp.</span>
+          </div>
+          <a class="btn btn--green" href="#">Pedir maquete do calendário</a>
+        </aside>
+
+        <section class="section" aria-labelledby="categorias-title">
+          <h2 class="section-title" id="categorias-title">Compre por categoria</h2>
+          <nav class="categories" aria-label="Categorias">
+            <a class="category" href="#">
+              <span class="category__media"><img src="assets/img/categoria-impressao.png" alt="Impressão &amp; Papelaria" loading="lazy" decoding="async" width="300" height="300"></span>
+              <span class="category__name">Impressão &amp; Papelaria</span>
+            </a>
+            <a class="category" href="#">
+              <span class="category__media"><img src="assets/img/categoria-publicidade.jpg" alt="Publicidade &amp; Exposição" loading="lazy" decoding="async" width="300" height="300"></span>
+              <span class="category__name">Publicidade &amp; Exposição</span>
+            </a>
+            <a class="category" href="#">
+              <span class="category__media"><img src="assets/img/categoria-textil.png" alt="Têxtil" loading="lazy" decoding="async" width="300" height="300"></span>
+              <span class="category__name">Têxtil</span>
+            </a>
+            <a class="category" href="#">
+              <span class="category__media"><img src="assets/img/categoria-brindes.png" alt="Brindes" loading="lazy" decoding="async" width="300" height="300"></span>
+              <span class="category__name">Brindes</span>
+            </a>
+            <a class="category" href="#">
+              <span class="category__media"><img src="assets/img/categoria-presentes.png" alt="Presentes" loading="lazy" decoding="async" width="300" height="300"></span>
+              <span class="category__name">Presentes</span>
+            </a>
+            <a class="category" href="#">
+              <span class="category__media"><img src="assets/img/categoria-agendas.png" alt="Agendas" loading="lazy" decoding="async" width="300" height="300"></span>
+              <span class="category__name">Agendas</span>
+            </a>
+            <a class="category" href="#">
+              <span class="category__media"><img src="assets/img/categoria-calendarios.png" alt="Calendários" loading="lazy" decoding="async" width="300" height="300"></span>
+              <span class="category__name">Calendários</span>
+            </a>
+            <a class="category" href="#">
+              <span class="category__media"><img src="assets/img/categoria-dtf.png" alt="DTF" loading="lazy" decoding="async" width="300" height="300"></span>
+              <span class="category__name">DTF</span>
+            </a>
+          </nav>
+        </section>
+
+        <section class="reviews" aria-label="Avaliações da Copy Center no Google">
+          <div class="reviews__card">
+            <div class="reviews__left">
+              <svg class="reviews__logo" viewBox="0 0 48 48" aria-hidden="true">
+                <path fill="#4285F4" d="M43.6 20.5H42V20H24v8h11.3C33.6 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.1 6.1 29.3 4 24 4 13 4 4 13 4 24s9 20 20 20 20-9 20-20c0-1.3-.1-2.4-.4-3.5z"/>
+                <path fill="#34A853" d="M6.3 14.7l6.6 4.8C14.6 15.1 18.9 12 24 12c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.1 6.1 29.3 4 24 4c-7.7 0-14.4 4.4-17.7 10.7z"/>
+                <path fill="#FBBC05" d="M24 44c5.1 0 9.8-2 13.3-5.3l-6.2-5.2C29.1 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.2-8l-6.6 5.1C9.5 39.6 16.2 44 24 44z"/>
+                <path fill="#EA4335" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.3-2.3 4.2-4.2 5.5l6.2 5.2C41.4 35 44 29.9 44 24c0-1.3-.1-2.4-.4-3.5z"/>
+              </svg>
+              <div class="reviews__info">
+                <p class="reviews__heading">A confiança dos nossos clientes</p>
+                <div class="reviews__rating">
+                  <span class="reviews__score">4,9</span>
+                  <span class="reviews__stars" aria-label="4,9 em 5 estrelas">★★★★★</span>
+                  <span class="reviews__count">128 opiniões no Google</span>
+                </div>
+              </div>
+            </div>
+            <a class="reviews__button" href="#">
+              Ver avaliações no Google
+              <svg class="icon"><use href="#i-up-right"/></svg>
+            </a>
+          </div>
+        </section>
+
+        <section class="carousel" aria-labelledby="agendas-carousel-title" data-carousel>
+          <div class="section-head">
+            <h2 class="section-title" id="agendas-carousel-title">Agendas 2027</h2>
+          </div>
+          <div class="carousel__viewport">
+            <ul class="carousel__track" tabindex="0" role="region" aria-label="Lista de produtos">
+              <li class="carousel__slide">
+                <a class="product-card" href="#">
+                  <span class="product-card__media"><img src="assets/img/agenda-tagore.png" alt="Agenda Diária Tagore c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
+                  <span class="product-card__name">Agenda Diária Tagore c/ Personalização</span>
+                  <span class="product-card__price"><b>10,00 €</b> <em>s/ IVA</em><small>por unidade</small></span>
+                </a>
+              </li>
+              <li class="carousel__slide">
+                <a class="product-card" href="#">
+                  <span class="product-card__media"><img src="assets/img/agenda-dallas.png" alt="Agenda Diária Dallas c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
+                  <span class="product-card__name">Agenda Diária Dallas c/ Personalização</span>
+                  <span class="product-card__price"><b>8,58 €</b> <em>s/ IVA</em><small>por unidade</small></span>
+                </a>
+              </li>
+              <li class="carousel__slide">
+                <a class="product-card" href="#">
+                  <span class="product-card__media"><img src="assets/img/agenda-tokyo.png" alt="Agenda Diária Tokyo c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
+                  <span class="product-card__name">Agenda Diária Tokyo c/ Personalização</span>
+                  <span class="product-card__price"><b>8,41 €</b> <em>s/ IVA</em><small>por unidade</small></span>
+                </a>
+              </li>
+              <li class="carousel__slide">
+                <a class="product-card" href="#">
+                  <span class="product-card__media"><img src="assets/img/agenda-san-marino.png" alt="Agenda Diária San Marino c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
+                  <span class="product-card__name">Agenda Diária San Marino c/ Personalização</span>
+                  <span class="product-card__price"><b>8,13 €</b> <em>s/ IVA</em><small>por unidade</small></span>
+                  <span class="swatches" aria-label="4 cores disponíveis">
+                    <i style="background:#8ec3ea"></i><i style="background:#6c233b"></i><i style="background:#b4c5b1"></i><i style="background:#b8b1a8"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="carousel__slide">
+                <a class="product-card" href="#">
+                  <span class="product-card__media"><img src="assets/img/agenda-vegas.png" alt="Agenda Diária Vegas c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
+                  <span class="product-card__name">Agenda Diária Vegas c/ Personalização</span>
+                  <span class="product-card__price"><b>9,88 €</b> <em>s/ IVA</em><small>por unidade</small></span>
+                </a>
+              </li>
+              <li class="carousel__slide">
+                <a class="product-card" href="#">
+                  <span class="product-card__media"><img src="assets/img/agenda-new-york.png" alt="Agenda Diária New York c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
+                  <span class="product-card__name">Agenda Diária New York c/ Personalização</span>
+                  <span class="product-card__price"><b>8,01 €</b> <em>s/ IVA</em><small>por unidade</small></span>
+                  <span class="swatches" aria-label="3 cores disponíveis">
+                    <i style="background:#20304a"></i><i style="background:#4f5b4a"></i><i style="background:#a7a29b"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="carousel__slide">
+                <a class="product-card" href="#">
+                  <span class="product-card__media"><img src="assets/img/agenda-spenser.png" alt="Agenda Diária Spenser c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
+                  <span class="product-card__name">Agenda Diária Spenser c/ Personalização</span>
+                  <span class="product-card__price"><b>10,81 €</b> <em>s/ IVA</em><small>por unidade</small></span>
+                </a>
+              </li>
+              <li class="carousel__slide">
+                <a class="product-card" href="#">
+                  <span class="product-card__media"><img src="assets/img/agenda-musset.png" alt="Agenda Diária Musset c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
+                  <span class="product-card__name">Agenda Diária Musset c/ Personalização</span>
+                  <span class="product-card__price"><b>11,67 €</b> <em>s/ IVA</em><small>por unidade</small></span>
+                </a>
+              </li>
+            </ul>
+            <button class="carousel__arrow carousel__arrow--prev" type="button" aria-label="Produtos anteriores">
+              <svg class="icon"><use href="#i-left"/></svg>
+            </button>
+            <button class="carousel__arrow carousel__arrow--next" type="button" aria-label="Próximos produtos">
+              <svg class="icon"><use href="#i-right"/></svg>
+            </button>
+          </div>
+          <div class="carousel__dots" role="group" aria-label="Navegação dos produtos"></div>
+        </section>
+
+        <section class="carousel" aria-labelledby="calendarios-carousel-title" data-carousel>
+          <div class="section-head">
+            <h2 class="section-title" id="calendarios-carousel-title">Calendários 2027</h2>
+          </div>
+          <div class="carousel__viewport">
+            <ul class="carousel__track" tabindex="0" role="region" aria-label="Lista de produtos">
+              <li class="carousel__slide">
+                <a class="product-card" href="#">
+                  <span class="product-card__media"><img src="assets/img/planning-mesa.png" alt="Planning de Mesa" loading="lazy" decoding="async" width="300" height="300"></span>
+                  <span class="product-card__name">Planning de Mesa</span>
+                  <span class="product-card__price"><b>130,00 €</b> <em>s/ IVA</em><small>100 unidades · 1,30 €/un.</small></span>
+                </a>
+              </li>
+              <li class="carousel__slide">
+                <a class="product-card" href="#">
+                  <span class="product-card__media"><img src="assets/img/calendario-parede-furo.png" alt="Calendários de Parede c/ Furo" loading="lazy" decoding="async" width="300" height="300"></span>
+                  <span class="product-card__name">Calendários de Parede c/ Furo</span>
+                  <span class="product-card__price"><b>75,00 €</b> <em>s/ IVA</em><small>100 unidades · 0,75 €/un.</small></span>
+                </a>
+              </li>
+              <li class="carousel__slide">
+                <a class="product-card" href="#">
+                  <span class="product-card__media"><img src="assets/img/calendario-parede-folhas.png" alt="Calendários de Parede c/ Folhas Destacáveis" loading="lazy" decoding="async" width="300" height="300"></span>
+                  <span class="product-card__name">Calendários de Parede c/ Folhas Destacáveis</span>
+                  <span class="product-card__price"><b>80,00 €</b> <em>s/ IVA</em><small>50 unidades · 1,60 €/un.</small></span>
+                </a>
+              </li>
+              <li class="carousel__slide">
+                <a class="product-card" href="#">
+                  <span class="product-card__media"><img src="assets/img/calendario-triangular.png" alt="Calendário Triangular" loading="lazy" decoding="async" width="300" height="300"></span>
+                  <span class="product-card__name">Calendário Triangular</span>
+                  <span class="product-card__price"><b>80,00 €</b> <em>s/ IVA</em><small>100 unidades · 0,80 €/un.</small></span>
+                </a>
+              </li>
+              <li class="carousel__slide">
+                <a class="product-card" href="#">
+                  <span class="product-card__media"><img src="assets/img/calendario-bolso.png" alt="Calendário de Bolso" loading="lazy" decoding="async" width="300" height="300"></span>
+                  <span class="product-card__name">Calendário de Bolso</span>
+                  <span class="product-card__price"><b>100,00 €</b> <em>s/ IVA</em><small>1.000 unidades · 0,10 €/un.</small></span>
+                </a>
+              </li>
+              <li class="carousel__slide">
+                <a class="product-card" href="#">
+                  <span class="product-card__media"><img src="assets/img/calendario-iman.png" alt="Calendário de Secretária" loading="lazy" decoding="async" width="300" height="300"></span>
+                  <span class="product-card__name">Calendário de Secretária</span>
+                  <span class="product-card__price"><b>60,00 €</b> <em>s/ IVA</em><small>50 unidades · 1,20 €/un.</small></span>
+                </a>
+              </li>
+            </ul>
+            <button class="carousel__arrow carousel__arrow--prev" type="button" aria-label="Produtos anteriores">
+              <svg class="icon"><use href="#i-left"/></svg>
+            </button>
+            <button class="carousel__arrow carousel__arrow--next" type="button" aria-label="Próximos produtos">
+              <svg class="icon"><use href="#i-right"/></svg>
+            </button>
+          </div>
+          <div class="carousel__dots" role="group" aria-label="Navegação dos produtos"></div>
+        </section>
+
+        <section class="carousel" aria-labelledby="canetas-carousel-title" data-carousel>
+          <div class="section-head">
+            <h2 class="section-title" id="canetas-carousel-title">Esferográficas personalizadas</h2>
+          </div>
+          <div class="carousel__viewport">
+            <ul class="carousel__track" tabindex="0" role="region" aria-label="Lista de produtos">
+              <li class="carousel__slide">
+                <a class="product-card" href="#">
+                  <span class="product-card__media"><img src="assets/img/pen-touchy.png" alt="Esferográfica Touchy c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
+                  <span class="product-card__name">Esferográfica Touchy c/ Personalização</span>
+                  <span class="product-card__price"><b>100,30 €</b> <em>s/ IVA</em><small>50 unidades · 2,01 €/un.</small></span>
+                  <span class="swatches" aria-label="5 cores disponíveis">
+                    <i style="background:#20304a"></i><i style="background:#f4d21f"></i><i style="background:#9db3c6"></i><i style="background:#b23b52"></i><i style="background:#7c8f5a"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="carousel__slide">
+                <a class="product-card" href="#">
+                  <span class="product-card__media"><img src="assets/img/esferografica-blacks.png" alt="Esferográfica Blacks c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
+                  <span class="product-card__name">Esferográfica Blacks c/ Personalização</span>
+                  <span class="product-card__price"><b>34,30 €</b> <em>s/ IVA</em><small>50 unidades · 0,69 €/un.</small></span>
+                  <span class="swatches" aria-label="8 cores disponíveis">
+                    <i style="background:#f4d21f"></i><i style="background:#8ec3ea"></i><i style="background:#c9d3dd"></i><i style="background:#e6007e"></i><i style="background:#f08a24"></i><i style="background:#1c1c1c"></i><i style="background:#e9b7cf"></i><em class="swatches__more">+3</em>
+                  </span>
+                </a>
+              </li>
+              <li class="carousel__slide">
+                <a class="product-card" href="#">
+                  <span class="product-card__media"><img src="assets/img/pen-clessin.png" alt="Esferográfica Clessin c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
+                  <span class="product-card__name">Esferográfica Clessin c/ Personalização</span>
+                  <span class="product-card__price"><b>40,50 €</b> <em>s/ IVA</em><small>50 unidades · 0,81 €/un.</small></span>
+                  <span class="swatches" aria-label="7 cores disponíveis">
+                    <i style="background:#f4d21f"></i><i style="background:#8ec3ea"></i><i style="background:#f08a24"></i><i style="background:#1c1c1c"></i><i style="background:#2f8f4e"></i><i style="background:#6f3fa0"></i><i style="background:#c9d3dd"></i><em class="swatches__more">+1</em>
+                  </span>
+                </a>
+              </li>
+              <li class="carousel__slide">
+                <a class="product-card" href="#">
+                  <span class="product-card__media"><img src="assets/img/pen-kific.png" alt="Esferográfica Kifc c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
+                  <span class="product-card__name">Esferográfica Kifc c/ Personalização</span>
+                  <span class="product-card__price"><b>34,30 €</b> <em>s/ IVA</em><small>50 unidades · 0,69 €/un.</small></span>
+                  <span class="swatches" aria-label="7 cores disponíveis">
+                    <i style="background:#f4d21f"></i><i style="background:#8ec3ea"></i><i style="background:#c9d3dd"></i><i style="background:#1c1c1c"></i><i style="background:#6f3fa0"></i><i style="background:#2f8f4e"></i><i style="background:#b23b52"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="carousel__slide">
+                <a class="product-card" href="#">
+                  <span class="product-card__media"><img src="assets/img/pen-skipper.png" alt="Esferográfica Person c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
+                  <span class="product-card__name">Esferográfica Person c/ Personalização</span>
+                  <span class="product-card__price"><b>37,80 €</b> <em>s/ IVA</em><small>50 unidades · 0,76 €/un.</small></span>
+                  <span class="swatches" aria-label="3 cores disponíveis">
+                    <i style="background:#f4d21f"></i><i style="background:#8ec3ea"></i><i style="background:#c9d3dd"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="carousel__slide">
+                <a class="product-card" href="#">
+                  <span class="product-card__media"><img src="assets/img/pen-buastel.png" alt="Esferográfica Buastel c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
+                  <span class="product-card__name">Esferográfica Buastel c/ Personalização</span>
+                  <span class="product-card__price"><b>48,80 €</b> <em>s/ IVA</em><small>50 unidades · 0,98 €/un.</small></span>
+                  <span class="swatches" aria-label="5 cores disponíveis">
+                    <i style="background:#f4d21f"></i><i style="background:#8ec3ea"></i><i style="background:#f6c6d4"></i><i style="background:#b9d08b"></i><i style="background:#6f3fa0"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <button class="carousel__arrow carousel__arrow--prev" type="button" aria-label="Produtos anteriores">
+              <svg class="icon"><use href="#i-left"/></svg>
+            </button>
+            <button class="carousel__arrow carousel__arrow--next" type="button" aria-label="Próximos produtos">
+              <svg class="icon"><use href="#i-right"/></svg>
+            </button>
+          </div>
+          <div class="carousel__dots" role="group" aria-label="Navegação dos produtos"></div>
+        </section>
+      </div>
+
+      <section class="why" aria-labelledby="why-title">
+        <div class="why__inner">
+          <h2 class="why__title" id="why-title">Porquê escolher a Copy Center?</h2>
+          <div class="why__grid">
+            <div class="why__item">
+              <svg class="why__icon"><use href="#i-truck"/></svg>
+              <h3>Entregas Rápidas</h3>
+            </div>
+            <div class="why__item">
+              <svg class="why__icon"><use href="#i-users"/></svg>
+              <h3>Equipa com mais de 30 anos de Experiência</h3>
+            </div>
+            <div class="why__item">
+              <svg class="why__icon"><use href="#i-file-check"/></svg>
+              <h3>Verificação de Ficheiros Gratuita</h3>
+            </div>
+            <div class="why__item">
+              <svg class="why__icon"><use href="#i-shield-check"/></svg>
+              <h3>Garantia de Qualidade</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <ul class="footer-trust">
+        <li>
+          <span class="footer-trust__icon footer-trust__icon--pink"><svg class="icon"><use href="#i-star"/></svg></span>
+          <div><strong>4,9 no Google</strong><span>128 opiniões de clientes</span></div>
+        </li>
+        <li>
+          <span class="footer-trust__icon footer-trust__icon--orange"><svg class="icon"><use href="#i-layers"/></svg></span>
+          <div><strong>Produção personalizada</strong><span>Feito à medida de cada encomenda</span></div>
+        </li>
+        <li>
+          <span class="footer-trust__icon footer-trust__icon--green"><svg class="icon"><use href="#i-shield-check"/></svg></span>
+          <div><strong>Pagamento seguro</strong><span>MB WAY, Multibanco ou transferência</span></div>
+        </li>
+        <li>
+          <span class="footer-trust__icon footer-trust__icon--blue"><svg class="icon"><use href="#i-chat"/></svg></span>
+          <div><strong>Apoio antes e depois da compra</strong><span>Por WhatsApp, telefone ou email</span></div>
+        </li>
+      </ul>
+
+      <div class="footer-main">
+        <div class="footer-grid">
+          <section class="footer-brand">
+            <a class="footer-brand__name" href="#">Copy Center</a>
+            <p>Impressão e personalização com atenção ao detalhe.</p>
+          </section>
+          <nav aria-label="Termos e políticas">
+            <h3>Informações</h3>
+            <ul class="footer-links">
+              <li><a href="#">Termos e Condições</a></li>
+              <li><a href="#">Política de Privacidade</a></li>
+              <li><a href="#">Política de Cookies</a></li>
+              <li><a href="#">Livro de Reclamações</a></li>
+            </ul>
+          </nav>
+          <nav aria-label="Sobre a Copy Center">
+            <h3>Sobre</h3>
+            <ul class="footer-links">
+              <li><a href="#">Quem somos</a></li>
+              <li><a href="#">Contactos</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </nav>
+          <section class="footer-contact">
+            <h3>Contactos</h3>
+            <a href="tel:210000000"><svg class="icon"><use href="#i-phone"/></svg><span>210 000 000</span></a>
+            <a href="mailto:geral@copycenter.pt"><svg class="icon"><use href="#i-mail"/></svg><span>geral@copycenter.pt</span></a>
+            <p class="footer-address"><svg class="icon"><use href="#i-pin"/></svg><span>Rua da Oficina, Nº 00 · 0000-000 Lisboa</span></p>
+          </section>
+        </div>
+        <div class="footer-copy">
+          <span>© 2026 Copy Center · Todos os direitos reservados</span>
+          <span>Pagamento por MB WAY, Multibanco ou transferência bancária</span>
+        </div>
+      </div>
+    </footer>
+
+    <a class="chat" href="#" aria-label="Falar por WhatsApp">
+      <svg class="icon"><use href="#i-chat"/></svg>
+    </a>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
