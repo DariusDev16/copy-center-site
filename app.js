@@ -144,7 +144,7 @@
         `;
         addBtn.addEventListener("click", (e) => {
           e.stopPropagation();
-          this.addItem(product);
+          cart.addItem(product);
         });
 
         // Append button to card (outside anchor)
