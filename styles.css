@@ -793,6 +793,27 @@ body.nav-open .backdrop {
   overflow: hidden;
 }
 
+/* Avaliação no cartão */
+.product-card__rating {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 12.5px;
+}
+
+.product-card__stars .icon {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+  stroke: none;
+}
+
+.product-card__rating-text {
+  font-weight: 600;
+}
+
 .product-card__name {
   font-size: 15px;
   font-weight: 600;
@@ -3373,6 +3394,28 @@ body.nav-open .backdrop {
 }
 
 .product-page__stars .icon {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+  stroke: none;
+}
+
+/* Estrelas de avaliação (cheias / vazias) */
+.rating__stars {
+  display: inline-flex;
+  gap: 2px;
+}
+
+.rating__star {
+  display: inline-flex;
+  color: #d7dbe0;
+}
+
+.rating__star.is-filled {
+  color: #f5a623;
+}
+
+.rating__star .icon {
   width: 16px;
   height: 16px;
   fill: currentColor;

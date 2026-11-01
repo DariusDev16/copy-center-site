@@ -39,6 +39,29 @@
       .replace(/\s+/g, " ")
       .trim();
 
+  // Formatação de avaliações (ex.: 4.7 -> "4,7").
+  const ratingFormatter = new Intl.NumberFormat("pt-PT", {
+    minimumFractionDigits: 1,
+    maximumFractionDigits: 1,
+  });
+  const formatRating = (value) => ratingFormatter.format(Number(value) || 0);
+
+  // Cria o conjunto de estrelas (cheias/vazias) para uma avaliação.
+  const STAR_SVG =
+    '<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-star"/></svg>';
+  const createStars = (rating, className = "rating__stars") => {
+    const wrap = document.createElement("span");
+    wrap.className = className;
+    const filled = Math.round(Number(rating) || 0);
+    for (let i = 0; i < 5; i += 1) {
+      const star = document.createElement("span");
+      star.className = "rating__star" + (i < filled ? " is-filled" : "");
+      star.innerHTML = STAR_SVG;
+      wrap.appendChild(star);
+    }
+    return wrap;
+  };
+
   const categoryById = new Map(
     categories.map((category) => [category.id, category.label])
   );
@@ -189,6 +212,19 @@
     nameLink.textContent = product.name;
     name.appendChild(nameLink);
 
+    // Avaliação.
+    const ratingRow = document.createElement("div");
+    ratingRow.className = "product-card__rating";
+    ratingRow.setAttribute(
+      "aria-label",
+      `Avaliação ${formatRating(product.rating)} em 5, ${formatInteger(product.reviews)} avaliações`
+    );
+    ratingRow.appendChild(createStars(product.rating, "product-card__stars"));
+    const ratingText = document.createElement("span");
+    ratingText.className = "product-card__rating-text";
+    ratingText.textContent = `${formatRating(product.rating)} (${formatInteger(product.reviews)})`;
+    ratingRow.appendChild(ratingText);
+
     const price = document.createElement("span");
     price.className = "product-card__price";
 
@@ -205,7 +241,7 @@
         : "Preço por unidade";
 
     price.append(priceValue, priceUnit, priceNote);
-    card.append(media, category, name, price);
+    card.append(media, category, name, ratingRow, price);
 
     const swatches = createSwatches(product);
     if (swatches) card.appendChild(swatches);

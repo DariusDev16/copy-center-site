@@ -13,6 +13,8 @@
  *   unitPrice: number,      // preço por unidade, sem IVA
  *   packSize: number,       // 1 quando o preço é naturalmente por unidade
  *   packPrice: number,      // preço de referência do pack, sem IVA
+ *   rating: number,         // avaliação média (0–5)
+ *   reviews: number,        // número de avaliações
  *   colors: [{ hex, name }],
  *   moreColors: number      // cores adicionais não representadas visualmente
  * }
@@ -28,6 +30,8 @@ window.COPY_CENTER_CATEGORIES = [
 window.COPY_CENTER_PRODUCTS = [
   {
     id: "calendarios-de-parede-c-furo",
+    rating: 4.7,
+    reviews: 184,
     name: "Calendários de Parede c/ Furo",
     category: "calendarios",
     description: "Calendário de parede com furo para pendurar, personalizado com o logótipo da empresa.",
@@ -40,6 +44,8 @@ window.COPY_CENTER_PRODUCTS = [
   },
   {
     id: "calendarios-de-parede-c-folhas-destacaveis",
+    rating: 4.6,
+    reviews: 96,
     name: "Calendários de Parede c/ Folhas Destacáveis",
     category: "calendarios",
     description: "Calendário de parede com folhas destacáveis e personalização com o logótipo da empresa.",
@@ -52,6 +58,8 @@ window.COPY_CENTER_PRODUCTS = [
   },
   {
     id: "calendario-triangular",
+    rating: 4.5,
+    reviews: 73,
     name: "Calendário Triangular",
     category: "calendarios",
     description: "Calendário triangular de mesa, personalizado com o logótipo da empresa.",
@@ -64,6 +72,8 @@ window.COPY_CENTER_PRODUCTS = [
   },
   {
     id: "calendario-de-bolso",
+    rating: 4.4,
+    reviews: 61,
     name: "Calendário de Bolso",
     category: "calendarios",
     description: "Calendário de bolso para distribuir aos clientes, com personalização.",
@@ -76,6 +86,8 @@ window.COPY_CENTER_PRODUCTS = [
   },
   {
     id: "calendario-de-secretaria",
+    rating: 4.6,
+    reviews: 52,
     name: "Calendário de Secretária",
     category: "calendarios",
     description: "Calendário de secretária com base de mesa, personalizado com o logótipo da empresa.",
@@ -88,6 +100,8 @@ window.COPY_CENTER_PRODUCTS = [
   },
   {
     id: "agenda-diaria-new-york",
+    rating: 4.8,
+    reviews: 143,
     name: "Agenda Diária New York",
     category: "agendas",
     description: "Agenda diária com capa personalizada e acabamento cuidado.",
@@ -105,6 +119,8 @@ window.COPY_CENTER_PRODUCTS = [
   },
   {
     id: "agenda-diaria-tagore",
+    rating: 4.7,
+    reviews: 88,
     name: "Agenda Diária Tagore",
     category: "agendas",
     description: "Agenda diária com capa personalizada, para oferta ou uso interno.",
@@ -117,6 +133,8 @@ window.COPY_CENTER_PRODUCTS = [
   },
   {
     id: "agenda-diaria-dallas",
+    rating: 4.5,
+    reviews: 64,
     name: "Agenda Diária Dallas",
     category: "agendas",
     description: "Agenda diária personalizada com o logótipo da empresa.",
@@ -129,6 +147,8 @@ window.COPY_CENTER_PRODUCTS = [
   },
   {
     id: "agenda-diaria-tokyo",
+    rating: 4.6,
+    reviews: 71,
     name: "Agenda Diária Tokyo",
     category: "agendas",
     description: "Agenda diária personalizada, com capa e acabamento ao seu gosto.",
@@ -141,6 +161,8 @@ window.COPY_CENTER_PRODUCTS = [
   },
   {
     id: "agenda-diaria-san-marino",
+    rating: 4.4,
+    reviews: 39,
     name: "Agenda Diária San Marino",
     category: "agendas",
     description: "Agenda diária com capa personalizada e várias cores disponíveis.",
@@ -158,6 +180,8 @@ window.COPY_CENTER_PRODUCTS = [
   },
   {
     id: "agenda-diaria-vegas",
+    rating: 4.7,
+    reviews: 57,
     name: "Agenda Diária Vegas",
     category: "agendas",
     description: "Agenda diária personalizada para empresas e equipas.",
@@ -170,6 +194,8 @@ window.COPY_CENTER_PRODUCTS = [
   },
   {
     id: "agenda-diaria-spenser",
+    rating: 4.3,
+    reviews: 28,
     name: "Agenda Diária Spenser",
     category: "agendas",
     description: "Agenda diária com capa personalizada e um acabamento cuidado.",
@@ -182,6 +208,8 @@ window.COPY_CENTER_PRODUCTS = [
   },
   {
     id: "agenda-diaria-musset",
+    rating: 4.5,
+    reviews: 33,
     name: "Agenda Diária Musset",
     category: "agendas",
     description: "Agenda diária personalizada, pensada para acompanhar o dia a dia.",
@@ -194,6 +222,8 @@ window.COPY_CENTER_PRODUCTS = [
   },
   {
     id: "planning-de-mesa",
+    rating: 4.6,
+    reviews: 47,
     name: "Planning de Mesa",
     category: "agendas",
     description: "Planning de mesa para organização diária, personalizado com o logótipo da empresa.",
@@ -206,6 +236,8 @@ window.COPY_CENTER_PRODUCTS = [
   },
   {
     id: "cartao-de-visita",
+    rating: 4.9,
+    reviews: 412,
     name: "Cartão de Visita",
     category: "papelaria",
     description: "Cartões de visita impressos com os dados e o logótipo da empresa.",
@@ -218,6 +250,8 @@ window.COPY_CENTER_PRODUCTS = [
   },
   {
     id: "flyers",
+    rating: 4.8,
+    reviews: 268,
     name: "Flyers",
     category: "papelaria",
     description: "Flyers impressos para divulgar campanhas, serviços e promoções.",
@@ -230,6 +264,8 @@ window.COPY_CENTER_PRODUCTS = [
   },
   {
     id: "esferografica-blacks",
+    rating: 4.6,
+    reviews: 152,
     name: "Esferográfica Blacks",
     category: "brindes",
     description: "Esferográfica personalizada com o logótipo da empresa, em várias cores.",
@@ -250,6 +286,8 @@ window.COPY_CENTER_PRODUCTS = [
   },
   {
     id: "esferografica-touchy",
+    rating: 4.7,
+    reviews: 118,
     name: "Esferográfica Touchy",
     category: "brindes",
     description: "Esferográfica personalizada com revestimento macio e várias cores.",
@@ -268,6 +306,8 @@ window.COPY_CENTER_PRODUCTS = [
   },
   {
     id: "esferografica-clessin",
+    rating: 4.5,
+    reviews: 97,
     name: "Esferográfica Clessin",
     category: "brindes",
     description: "Esferográfica personalizada com o logótipo da empresa, em várias cores.",
@@ -288,6 +328,8 @@ window.COPY_CENTER_PRODUCTS = [
   },
   {
     id: "esferografica-kifc",
+    rating: 4.4,
+    reviews: 84,
     name: "Esferográfica Kifc",
     category: "brindes",
     description: "Esferográfica personalizada, disponível em várias cores.",
@@ -308,6 +350,8 @@ window.COPY_CENTER_PRODUCTS = [
   },
   {
     id: "esferografica-person",
+    rating: 4.5,
+    reviews: 76,
     name: "Esferográfica Person",
     category: "brindes",
     description: "Esferográfica personalizada com o logótipo da empresa.",
@@ -324,6 +368,8 @@ window.COPY_CENTER_PRODUCTS = [
   },
   {
     id: "esferografica-buastel",
+    rating: 4.6,
+    reviews: 63,
     name: "Esferográfica Buastel",
     category: "brindes",
     description: "Esferográfica personalizada em várias cores, para oferta ou uso diário.",
@@ -342,6 +388,8 @@ window.COPY_CENTER_PRODUCTS = [
   },
   {
     id: "lapis-de-natal",
+    rating: 4.3,
+    reviews: 45,
     name: "Lápis de Natal",
     category: "brindes",
     description: "Lápis promocional de Natal personalizado com o logótipo da empresa.",
@@ -354,6 +402,8 @@ window.COPY_CENTER_PRODUCTS = [
   },
   {
     id: "textil-com-o-seu-logotipo",
+    rating: 4.8,
+    reviews: 129,
     name: "Têxtil com o seu logótipo",
     category: "textil",
     description: "T-shirts, polos e aventais personalizados com o logótipo da empresa.",

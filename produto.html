@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20261101b">
+  <link rel="stylesheet" href="styles.css?v=20261101c">
 </head>
 <body>
   <svg class="sprite" aria-hidden="true" focusable="false">
@@ -192,15 +192,15 @@
           <p class="product-page__category" data-product-category></p>
           <h1 data-product-name>Produto</h1>
 
-          <div class="product-page__rating" aria-label="Avaliação média 4,8 em 5">
-            <span class="product-page__stars" aria-hidden="true">
-              <svg class="icon" viewBox="0 0 24 24"><use href="#i-star"/></svg>
-              <svg class="icon" viewBox="0 0 24 24"><use href="#i-star"/></svg>
-              <svg class="icon" viewBox="0 0 24 24"><use href="#i-star"/></svg>
-              <svg class="icon" viewBox="0 0 24 24"><use href="#i-star"/></svg>
-              <svg class="icon" viewBox="0 0 24 24"><use href="#i-star"/></svg>
+          <div class="product-page__rating" data-product-rating aria-label="Avaliação do produto">
+            <span class="product-page__stars rating__stars" data-product-stars aria-hidden="true">
+              <span class="rating__star is-filled"><svg class="icon" viewBox="0 0 24 24"><use href="#i-star"/></svg></span>
+              <span class="rating__star is-filled"><svg class="icon" viewBox="0 0 24 24"><use href="#i-star"/></svg></span>
+              <span class="rating__star is-filled"><svg class="icon" viewBox="0 0 24 24"><use href="#i-star"/></svg></span>
+              <span class="rating__star is-filled"><svg class="icon" viewBox="0 0 24 24"><use href="#i-star"/></svg></span>
+              <span class="rating__star is-filled"><svg class="icon" viewBox="0 0 24 24"><use href="#i-star"/></svg></span>
             </span>
-            <span data-product-reviews>4,8 · 32 avaliações</span>
+            <span data-product-reviews></span>
           </div>
 
           <p class="product-page__price">
@@ -359,8 +359,8 @@
     </a>
   </div>
 
-  <script src="catalogo-data.js?v=20261101b"></script>
-  <script src="app.js?v=20261101b"></script>
-  <script src="produto.js?v=20261101b"></script>
+  <script src="catalogo-data.js?v=20261101c"></script>
+  <script src="app.js?v=20261101c"></script>
+  <script src="produto.js?v=20261101c"></script>
 </body>
 </html>

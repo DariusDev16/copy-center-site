@@ -22,6 +22,11 @@
   const integerFormatter = new Intl.NumberFormat("pt-PT");
   const formatPrice = (value) => priceFormatter.format(Number(value) || 0);
   const formatInteger = (value) => integerFormatter.format(Number(value) || 0);
+  const ratingFormatter = new Intl.NumberFormat("pt-PT", {
+    minimumFractionDigits: 1,
+    maximumFractionDigits: 1,
+  });
+  const formatRating = (value) => ratingFormatter.format(Number(value) || 0);
 
   const params = new URLSearchParams(window.location.search);
   const id = params.get("id");
@@ -73,6 +78,33 @@
 
   setText("[data-product-category]", categoryLabel(product.category));
   setText("[data-product-name]", product.name);
+
+  // ---------- Avaliação ----------
+  const ratingEl = document.querySelector("[data-product-rating]");
+  if (ratingEl) {
+    const rating = Number(product.rating) || 0;
+    const reviews = Number(product.reviews) || 0;
+    ratingEl.setAttribute(
+      "aria-label",
+      `Avaliação média ${formatRating(rating)} em 5, ${formatInteger(reviews)} avaliações`
+    );
+  }
+  const starsEl = document.querySelector("[data-product-stars]");
+  if (starsEl) {
+    const filled = Math.round(Number(product.rating) || 0);
+    starsEl.innerHTML = "";
+    for (let i = 0; i < 5; i += 1) {
+      const star = document.createElement("span");
+      star.className = "rating__star" + (i < filled ? " is-filled" : "");
+      star.innerHTML =
+        '<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-star"/></svg>';
+      starsEl.appendChild(star);
+    }
+  }
+  setText(
+    "[data-product-reviews]",
+    `${formatRating(product.rating)} · ${formatInteger(product.reviews)} avaliações`
+  );
 
   setText("[data-product-price]", formatPrice(product.unitPrice));
 
