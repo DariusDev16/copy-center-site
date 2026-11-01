@@ -47,3 +47,5 @@ Abrir `index.html` no navegador ou servir a pasta:
 ```bash
 python3 -m http.server 8000
 ```
+
+<!-- Pages rebuild 2026-11-01T18:20:13Z -->
