@@ -2715,7 +2715,8 @@ body.nav-open .backdrop {
   }
 
   .menu-btn {
-    display: inline-flex;
+    display: inline-grid;
+    place-items: center;
   }
 
   .brand {
@@ -3146,7 +3147,8 @@ body.nav-open .backdrop {
   }
 
   .menu-btn {
-    display: inline-flex;
+    display: inline-grid;
+    place-items: center;
   }
 }
 
