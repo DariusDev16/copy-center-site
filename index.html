@@ -34,6 +34,11 @@
       <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.5 3.5h3l1.5 4-2 1.5a11 11 0 0 0 6 6l1.5-2 4 1.5v3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.5 5.7a2 2 0 0 1 2-2.2z"/></symbol>
       <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3.5" y="6" width="17" height="12" rx="1"/><path d="m4 6.5 8 6.5 8-6.5"/></symbol>
       <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s6.5-5.8 6.5-11a6.5 6.5 0 0 0-13 0c0 5.2 6.5 11 6.5 11z"/><circle cx="12" cy="10" r="2.3"/></symbol>
+      <symbol id="i-quote" viewBox="0 0 24 24"><path d="M9.5 6C6.5 7.4 5 9.8 5 13.2V18h5.2v-5.4H7.6c0-2 .9-3.4 2.7-4.3zM18.3 6c-3 1.4-4.5 3.8-4.5 7.2V18h5.2v-5.4h-2.6c0-2 .9-3.4 2.7-4.3z"/></symbol>
+      <symbol id="i-google" viewBox="0 0 48 48"><path fill="#4285F4" d="M43.6 20.5H42V20H24v8h11.3C33.6 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.1 6.1 29.3 4 24 4 13 4 4 13 4 24s9 20 20 20 20-9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#34A853" d="M6.3 14.7l6.6 4.8C14.6 15.1 18.9 12 24 12c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.1 6.1 29.3 4 24 4c-7.7 0-14.4 4.4-17.7 10.7z"/><path fill="#FBBC05" d="M24 44c5.1 0 9.8-2 13.3-5.3l-6.2-5.2C29.1 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.2-8l-6.6 5.1C9.5 39.6 16.2 44 24 44z"/><path fill="#EA4335" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.3-2.3 4.2-4.2 5.5l6.2 5.2C41.4 35 44 29.9 44 24c0-1.3-.1-2.4-.4-3.5z"/></symbol>
+      <symbol id="i-facebook" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12z"/></symbol>
+      <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5"/><circle cx="12" cy="12" r="4.1"/><circle cx="17.1" cy="6.9" r="1.1" fill="currentColor" stroke="none"/></symbol>
+      <symbol id="i-waze" viewBox="0 0 24 24"><path d="M12 2.8c-5 0-9 3.5-9 8 0 2.6 1.3 4.9 3.4 6.4l-1 3.9 3.9-2c.9.3 1.8.4 2.7.4 5 0 9-3.5 9-8s-4-8.7-9-8.7z"/><circle cx="9.3" cy="10" r="1" fill="currentColor" stroke="none"/><circle cx="14.7" cy="10" r="1" fill="currentColor" stroke="none"/><path d="M8.4 14.2c2-1 4.3-1.4 7-.9"/></symbol>
     </defs>
   </svg>
 
@@ -46,24 +51,24 @@
     <header class="site-header">
       <div class="header-main">
         <button class="menu-btn" type="button" aria-label="Abrir menu" aria-controls="drawer" aria-expanded="false" data-menu-toggle>
-          <svg class="icon"><use href="#i-menu"/></svg>
+          <svg class="icon" viewBox="0 0 24 24"><use href="#i-menu"/></svg>
         </button>
 
-        <a class="brand" href="#" aria-label="Copy Center — início">
+        <a class="brand" href="index.html" aria-label="Copy Center — início">
           <img src="assets/img/logo.svg" alt="Copy Center" width="60" height="60">
         </a>
 
-        <form class="search" role="search" action="#" method="get">
+        <form class="search" role="search" action="produtos.html" method="get">
           <label class="sr-only" for="q">Procurar produtos</label>
-          <input id="q" type="search" name="s" placeholder="O que procura?" required>
+          <input id="q" type="search" name="q" placeholder="O que procura?" required>
           <button type="submit" aria-label="Pesquisar">
-            <svg class="icon"><use href="#i-search"/></svg>
+            <svg class="icon" viewBox="0 0 24 24"><use href="#i-search"/></svg>
           </button>
         </form>
 
         <div class="actions">
-          <a class="icon-btn cart" href="#" aria-label="Carrinho, 0 produtos">
-            <svg class="icon"><use href="#i-bag"/></svg>
+          <a class="icon-btn cart" href="carrinho.html" aria-label="Carrinho, 0 produtos">
+            <svg class="icon" viewBox="0 0 24 24"><use href="#i-bag"/></svg>
             <span class="cart__count">0</span>
           </a>
         </div>
@@ -71,6 +76,7 @@
 
       <nav class="main-nav" aria-label="Menu principal">
         <ul class="nav-links">
+          <li><a href="produtos.html">Todos os produtos</a></li>
           <li><a href="#">Impressão &amp; Papelaria</a></li>
           <li><a href="#">Publicidade &amp; Exposição</a></li>
           <li class="has-sub">
@@ -114,10 +120,11 @@
       <div class="drawer__top">
         <strong>Menu</strong>
         <button class="icon-btn" type="button" aria-label="Fechar menu" data-menu-close>
-          <svg class="icon"><use href="#i-close"/></svg>
+          <svg class="icon" viewBox="0 0 24 24"><use href="#i-close"/></svg>
         </button>
       </div>
       <ul class="drawer__links">
+        <li><a href="produtos.html">Todos os produtos</a></li>
         <li><a href="#">Impressão &amp; Papelaria</a></li>
         <li><a href="#">Publicidade &amp; Exposição</a></li>
         <li>
@@ -155,7 +162,7 @@
         <li><a href="#">DTF</a></li>
       </ul>
       <div class="drawer__bottom">
-        <a href="#">Contactos</a>
+        <a href="contactos.html">Contactos</a>
       </div>
     </nav>
     <div class="backdrop" aria-hidden="true" data-menu-close></div>
@@ -178,13 +185,13 @@
             </h2>
             <p class="hero__sub">Envie-nos o logótipo. Mostramos a maquete antes da produção.</p>
             <div class="hero__actions">
-              <a class="btn" href="#">Ver calendários e agendas</a>
-              <a class="btn btn--green" href="#">Pedir maquete pelo WhatsApp</a>
+              <a class="btn" href="produtos.html">Ver todos os produtos</a>
+              <a class="btn btn--green" href="https://wa.me/351968897834" target="_blank" rel="noopener">Pedir maquete pelo WhatsApp</a>
             </div>
             <ul class="chips">
               <li>Maquete antes da produção</li>
               <li>Levantamento na loja</li>
-              <li>4,9 ★ no Google (128)</li>
+              <li>4,2 ★ no Google (397)</li>
             </ul>
           </div>
 
@@ -209,7 +216,7 @@
           <h2 class="section-title" id="calendarios-title">Calendários 2027</h2>
           <p class="section-note">Preço por encomenda, sem IVA.</p>
           <div class="grid">
-            <a class="product-card" href="#">
+            <a class="product-card" href="produto.html?id=calendarios-de-parede-c-furo">
               <span class="product-card__media">
                 <span class="badge">Melhor preço</span>
                 <img src="assets/img/calendario-parede-furo.png" alt="Calendários de Parede c/ Furo" loading="lazy" decoding="async" width="300" height="300">
@@ -217,21 +224,21 @@
               <span class="product-card__name">Calendários de Parede c/ Furo</span>
               <span class="product-card__price"><b>75,00 €</b> <em>s/ IVA</em><small>100 unidades · 0,75 €/un.</small></span>
             </a>
-            <a class="product-card" href="#">
+            <a class="product-card" href="produto.html?id=calendarios-de-parede-c-folhas-destacaveis">
               <span class="product-card__media">
                 <img src="assets/img/calendario-parede-folhas.png" alt="Calendários de Parede c/ Folhas Destacáveis" loading="lazy" decoding="async" width="300" height="300">
               </span>
               <span class="product-card__name">Calendários de Parede c/ Folhas Destacáveis</span>
               <span class="product-card__price"><b>80,00 €</b> <em>s/ IVA</em><small>50 unidades · 1,60 €/un.</small></span>
             </a>
-            <a class="product-card" href="#">
+            <a class="product-card" href="produto.html?id=calendario-triangular">
               <span class="product-card__media">
                 <img src="assets/img/calendario-triangular.png?v=2" alt="Calendário Triangular" loading="lazy" decoding="async" width="300" height="300">
               </span>
               <span class="product-card__name">Calendário Triangular</span>
               <span class="product-card__price"><b>80,00 €</b> <em>s/ IVA</em><small>100 unidades · 0,80 €/un.</small></span>
             </a>
-            <a class="product-card" href="#">
+            <a class="product-card" href="produto.html?id=calendario-de-bolso">
               <span class="product-card__media">
                 <img src="assets/img/calendario-bolso.png?v=2" alt="Calendário de Bolso" loading="lazy" decoding="async" width="300" height="300">
               </span>
@@ -245,7 +252,7 @@
           <h2 class="section-title" id="agendas-title">Agendas e canetas com o seu logótipo</h2>
           <p class="section-note">O brinde de Natal que os clientes usam o ano inteiro.</p>
           <div class="grid">
-            <a class="product-card" href="#">
+            <a class="product-card" href="produto.html?id=agenda-diaria-new-york">
               <span class="product-card__media">
                 <img src="assets/img/agenda-new-york.png" alt="Agenda Diária New York" loading="lazy" decoding="async" width="300" height="300">
               </span>
@@ -255,14 +262,14 @@
                 <i style="background:#37475a"></i><i style="background:#8a6a58"></i><i style="background:#6e7d66"></i><i style="background:#b9a7a0"></i>
               </span>
             </a>
-            <a class="product-card" href="#">
+            <a class="product-card" href="produto.html?id=agenda-diaria-tagore">
               <span class="product-card__media">
                 <img src="assets/img/agenda-tagore.png" alt="Agenda Diária Tagore" loading="lazy" decoding="async" width="300" height="300">
               </span>
               <span class="product-card__name">Agenda Diária Tagore</span>
               <span class="product-card__price"><b>10,00 €</b> <em>s/ IVA</em><small>por unidade</small></span>
             </a>
-            <a class="product-card" href="#">
+            <a class="product-card" href="produto.html?id=esferografica-blacks">
               <span class="product-card__media">
                 <img src="assets/img/esferografica-blacks.png" alt="Esferográfica Blacks" loading="lazy" decoding="async" width="300" height="300">
               </span>
@@ -272,7 +279,7 @@
                 <i style="background:#f4d21f"></i><i style="background:#8ec3ea"></i><i style="background:#c9d3dd"></i><i style="background:#e6007e"></i><i style="background:#f08a24"></i><i style="background:#1c1c1c"></i><i style="background:#e9b7cf"></i><em class="swatches__more">+3</em>
               </span>
             </a>
-            <a class="product-card" href="#">
+            <a class="product-card" href="produto.html?id=lapis-de-natal">
               <span class="product-card__media">
                 <img src="assets/img/lapis-natal.png" alt="Lápis de Natal" loading="lazy" decoding="async" width="300" height="300">
               </span>
@@ -283,30 +290,33 @@
         </section>
 
         <section class="section" aria-labelledby="mais-title">
-          <h2 class="section-title" id="mais-title">Mais vendidos</h2>
+          <div class="section-head section-head--split">
+            <h2 class="section-title" id="mais-title">Mais vendidos</h2>
+            <a class="section-link" href="produtos.html">Ver todos os produtos <svg class="icon" viewBox="0 0 24 24"><use href="#i-up-right"/></svg></a>
+          </div>
           <div class="grid">
-            <a class="product-card" href="#">
+            <a class="product-card" href="produto.html?id=cartao-de-visita">
               <span class="product-card__media">
                 <img src="assets/img/cartao-visita.jpg" alt="Cartão de Visita" loading="lazy" decoding="async" width="300" height="300">
               </span>
               <span class="product-card__name">Cartão de Visita</span>
               <span class="product-card__price"><b>10,57 €</b> <em>s/ IVA</em><small>100 unidades · 0,11 €/un.</small></span>
             </a>
-            <a class="product-card" href="#">
+            <a class="product-card" href="produto.html?id=flyers">
               <span class="product-card__media">
                 <img src="assets/img/flyers.jpg" alt="Flyers" loading="lazy" decoding="async" width="300" height="300">
               </span>
               <span class="product-card__name">Flyers</span>
               <span class="product-card__price"><b>13,82 €</b> <em>s/ IVA</em><small>100 unidades · 0,14 €/un.</small></span>
             </a>
-            <a class="product-card" href="#">
+            <a class="product-card" href="produto.html?id=calendarios-de-parede-c-furo">
               <span class="product-card__media">
                 <img src="assets/img/calendario-parede-furo.png" alt="Calendários de Parede c/ Furo" loading="lazy" decoding="async" width="300" height="300">
               </span>
               <span class="product-card__name">Calendários de Parede c/ Furo</span>
               <span class="product-card__price"><b>75,00 €</b> <em>s/ IVA</em><small>100 unidades · 0,75 €/un.</small></span>
             </a>
-            <a class="product-card" href="#">
+            <a class="product-card" href="produto.html?id=textil-com-o-seu-logotipo">
               <span class="product-card__media">
                 <img src="assets/img/textil.png" alt="Têxtil com o seu logótipo" loading="lazy" decoding="async" width="300" height="300">
               </span>
@@ -374,15 +384,15 @@
               <div class="reviews__info">
                 <p class="reviews__heading">A confiança dos nossos clientes</p>
                 <div class="reviews__rating">
-                  <span class="reviews__score">4,9</span>
-                  <span class="reviews__stars" aria-label="4,9 em 5 estrelas">★★★★★</span>
-                  <span class="reviews__count">128 opiniões no Google</span>
+                  <span class="reviews__score">4,2</span>
+                  <span class="reviews__stars" aria-label="4,2 em 5 estrelas">★★★★☆</span>
+                  <span class="reviews__count">397 opiniões no Google</span>
                 </div>
               </div>
             </div>
-            <a class="reviews__button" href="#">
+            <a class="reviews__button" href="https://maps.app.goo.gl/YYydRnyrPfehxvtr9" target="_blank" rel="noopener">
               Ver avaliações no Google
-              <svg class="icon"><use href="#i-up-right"/></svg>
+              <svg class="icon" viewBox="0 0 24 24"><use href="#i-up-right"/></svg>
             </a>
           </div>
         </section>
@@ -394,28 +404,28 @@
           <div class="carousel__viewport">
             <ul class="carousel__track" tabindex="0" role="region" aria-label="Lista de produtos">
               <li class="carousel__slide">
-                <a class="product-card" href="#">
+                <a class="product-card" href="produto.html?id=agenda-diaria-tagore">
                   <span class="product-card__media"><img src="assets/img/agenda-tagore.png" alt="Agenda Diária Tagore c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
                   <span class="product-card__name">Agenda Diária Tagore c/ Personalização</span>
                   <span class="product-card__price"><b>10,00 €</b> <em>s/ IVA</em><small>por unidade</small></span>
                 </a>
               </li>
               <li class="carousel__slide">
-                <a class="product-card" href="#">
+                <a class="product-card" href="produto.html?id=agenda-diaria-dallas">
                   <span class="product-card__media"><img src="assets/img/agenda-dallas.png" alt="Agenda Diária Dallas c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
                   <span class="product-card__name">Agenda Diária Dallas c/ Personalização</span>
                   <span class="product-card__price"><b>8,58 €</b> <em>s/ IVA</em><small>por unidade</small></span>
                 </a>
               </li>
               <li class="carousel__slide">
-                <a class="product-card" href="#">
+                <a class="product-card" href="produto.html?id=agenda-diaria-tokyo">
                   <span class="product-card__media"><img src="assets/img/agenda-tokyo.png" alt="Agenda Diária Tokyo c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
                   <span class="product-card__name">Agenda Diária Tokyo c/ Personalização</span>
                   <span class="product-card__price"><b>8,41 €</b> <em>s/ IVA</em><small>por unidade</small></span>
                 </a>
               </li>
               <li class="carousel__slide">
-                <a class="product-card" href="#">
+                <a class="product-card" href="produto.html?id=agenda-diaria-san-marino">
                   <span class="product-card__media"><img src="assets/img/agenda-san-marino.png" alt="Agenda Diária San Marino c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
                   <span class="product-card__name">Agenda Diária San Marino c/ Personalização</span>
                   <span class="product-card__price"><b>8,13 €</b> <em>s/ IVA</em><small>por unidade</small></span>
@@ -425,14 +435,14 @@
                 </a>
               </li>
               <li class="carousel__slide">
-                <a class="product-card" href="#">
+                <a class="product-card" href="produto.html?id=agenda-diaria-vegas">
                   <span class="product-card__media"><img src="assets/img/agenda-vegas.png" alt="Agenda Diária Vegas c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
                   <span class="product-card__name">Agenda Diária Vegas c/ Personalização</span>
                   <span class="product-card__price"><b>9,88 €</b> <em>s/ IVA</em><small>por unidade</small></span>
                 </a>
               </li>
               <li class="carousel__slide">
-                <a class="product-card" href="#">
+                <a class="product-card" href="produto.html?id=agenda-diaria-new-york">
                   <span class="product-card__media"><img src="assets/img/agenda-new-york.png" alt="Agenda Diária New York c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
                   <span class="product-card__name">Agenda Diária New York c/ Personalização</span>
                   <span class="product-card__price"><b>8,01 €</b> <em>s/ IVA</em><small>por unidade</small></span>
@@ -442,14 +452,14 @@
                 </a>
               </li>
               <li class="carousel__slide">
-                <a class="product-card" href="#">
+                <a class="product-card" href="produto.html?id=agenda-diaria-spenser">
                   <span class="product-card__media"><img src="assets/img/agenda-spenser.png" alt="Agenda Diária Spenser c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
                   <span class="product-card__name">Agenda Diária Spenser c/ Personalização</span>
                   <span class="product-card__price"><b>10,81 €</b> <em>s/ IVA</em><small>por unidade</small></span>
                 </a>
               </li>
               <li class="carousel__slide">
-                <a class="product-card" href="#">
+                <a class="product-card" href="produto.html?id=agenda-diaria-musset">
                   <span class="product-card__media"><img src="assets/img/agenda-musset.png" alt="Agenda Diária Musset c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
                   <span class="product-card__name">Agenda Diária Musset c/ Personalização</span>
                   <span class="product-card__price"><b>11,67 €</b> <em>s/ IVA</em><small>por unidade</small></span>
@@ -457,10 +467,10 @@
               </li>
             </ul>
             <button class="carousel__arrow carousel__arrow--prev" type="button" aria-label="Produtos anteriores">
-              <svg class="icon"><use href="#i-left"/></svg>
+              <svg class="icon" viewBox="0 0 24 24"><use href="#i-left"/></svg>
             </button>
             <button class="carousel__arrow carousel__arrow--next" type="button" aria-label="Próximos produtos">
-              <svg class="icon"><use href="#i-right"/></svg>
+              <svg class="icon" viewBox="0 0 24 24"><use href="#i-right"/></svg>
             </button>
           </div>
           <div class="carousel__dots" role="group" aria-label="Navegação dos produtos"></div>
@@ -473,42 +483,42 @@
           <div class="carousel__viewport">
             <ul class="carousel__track" tabindex="0" role="region" aria-label="Lista de produtos">
               <li class="carousel__slide">
-                <a class="product-card" href="#">
+                <a class="product-card" href="produto.html?id=planning-de-mesa">
                   <span class="product-card__media"><img src="assets/img/planning-mesa.png" alt="Planning de Mesa" loading="lazy" decoding="async" width="300" height="300"></span>
                   <span class="product-card__name">Planning de Mesa</span>
                   <span class="product-card__price"><b>130,00 €</b> <em>s/ IVA</em><small>100 unidades · 1,30 €/un.</small></span>
                 </a>
               </li>
               <li class="carousel__slide">
-                <a class="product-card" href="#">
+                <a class="product-card" href="produto.html?id=calendarios-de-parede-c-furo">
                   <span class="product-card__media"><img src="assets/img/calendario-parede-furo.png" alt="Calendários de Parede c/ Furo" loading="lazy" decoding="async" width="300" height="300"></span>
                   <span class="product-card__name">Calendários de Parede c/ Furo</span>
                   <span class="product-card__price"><b>75,00 €</b> <em>s/ IVA</em><small>100 unidades · 0,75 €/un.</small></span>
                 </a>
               </li>
               <li class="carousel__slide">
-                <a class="product-card" href="#">
+                <a class="product-card" href="produto.html?id=calendarios-de-parede-c-folhas-destacaveis">
                   <span class="product-card__media"><img src="assets/img/calendario-parede-folhas.png" alt="Calendários de Parede c/ Folhas Destacáveis" loading="lazy" decoding="async" width="300" height="300"></span>
                   <span class="product-card__name">Calendários de Parede c/ Folhas Destacáveis</span>
                   <span class="product-card__price"><b>80,00 €</b> <em>s/ IVA</em><small>50 unidades · 1,60 €/un.</small></span>
                 </a>
               </li>
               <li class="carousel__slide">
-                <a class="product-card" href="#">
+                <a class="product-card" href="produto.html?id=calendario-triangular">
                   <span class="product-card__media"><img src="assets/img/calendario-triangular.png?v=2" alt="Calendário Triangular" loading="lazy" decoding="async" width="300" height="300"></span>
                   <span class="product-card__name">Calendário Triangular</span>
                   <span class="product-card__price"><b>80,00 €</b> <em>s/ IVA</em><small>100 unidades · 0,80 €/un.</small></span>
                 </a>
               </li>
               <li class="carousel__slide">
-                <a class="product-card" href="#">
+                <a class="product-card" href="produto.html?id=calendario-de-bolso">
                   <span class="product-card__media"><img src="assets/img/calendario-bolso.png?v=2" alt="Calendário de Bolso" loading="lazy" decoding="async" width="300" height="300"></span>
                   <span class="product-card__name">Calendário de Bolso</span>
                   <span class="product-card__price"><b>100,00 €</b> <em>s/ IVA</em><small>1.000 unidades · 0,10 €/un.</small></span>
                 </a>
               </li>
               <li class="carousel__slide">
-                <a class="product-card" href="#">
+                <a class="product-card" href="produto.html?id=calendario-de-secretaria">
                   <span class="product-card__media"><img src="assets/img/calendario-iman.png" alt="Calendário de Secretária" loading="lazy" decoding="async" width="300" height="300"></span>
                   <span class="product-card__name">Calendário de Secretária</span>
                   <span class="product-card__price"><b>60,00 €</b> <em>s/ IVA</em><small>50 unidades · 1,20 €/un.</small></span>
@@ -516,10 +526,10 @@
               </li>
             </ul>
             <button class="carousel__arrow carousel__arrow--prev" type="button" aria-label="Produtos anteriores">
-              <svg class="icon"><use href="#i-left"/></svg>
+              <svg class="icon" viewBox="0 0 24 24"><use href="#i-left"/></svg>
             </button>
             <button class="carousel__arrow carousel__arrow--next" type="button" aria-label="Próximos produtos">
-              <svg class="icon"><use href="#i-right"/></svg>
+              <svg class="icon" viewBox="0 0 24 24"><use href="#i-right"/></svg>
             </button>
           </div>
           <div class="carousel__dots" role="group" aria-label="Navegação dos produtos"></div>
@@ -532,7 +542,7 @@
           <div class="carousel__viewport">
             <ul class="carousel__track" tabindex="0" role="region" aria-label="Lista de produtos">
               <li class="carousel__slide">
-                <a class="product-card" href="#">
+                <a class="product-card" href="produto.html?id=esferografica-touchy">
                   <span class="product-card__media"><img src="assets/img/pen-touchy.png" alt="Esferográfica Touchy c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
                   <span class="product-card__name">Esferográfica Touchy c/ Personalização</span>
                   <span class="product-card__price"><b>100,30 €</b> <em>s/ IVA</em><small>50 unidades · 2,01 €/un.</small></span>
@@ -542,7 +552,7 @@
                 </a>
               </li>
               <li class="carousel__slide">
-                <a class="product-card" href="#">
+                <a class="product-card" href="produto.html?id=esferografica-blacks">
                   <span class="product-card__media"><img src="assets/img/esferografica-blacks.png" alt="Esferográfica Blacks c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
                   <span class="product-card__name">Esferográfica Blacks c/ Personalização</span>
                   <span class="product-card__price"><b>34,30 €</b> <em>s/ IVA</em><small>50 unidades · 0,69 €/un.</small></span>
@@ -552,7 +562,7 @@
                 </a>
               </li>
               <li class="carousel__slide">
-                <a class="product-card" href="#">
+                <a class="product-card" href="produto.html?id=esferografica-clessin">
                   <span class="product-card__media"><img src="assets/img/pen-clessin.png" alt="Esferográfica Clessin c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
                   <span class="product-card__name">Esferográfica Clessin c/ Personalização</span>
                   <span class="product-card__price"><b>40,50 €</b> <em>s/ IVA</em><small>50 unidades · 0,81 €/un.</small></span>
@@ -562,7 +572,7 @@
                 </a>
               </li>
               <li class="carousel__slide">
-                <a class="product-card" href="#">
+                <a class="product-card" href="produto.html?id=esferografica-kifc">
                   <span class="product-card__media"><img src="assets/img/pen-kific.png" alt="Esferográfica Kifc c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
                   <span class="product-card__name">Esferográfica Kifc c/ Personalização</span>
                   <span class="product-card__price"><b>34,30 €</b> <em>s/ IVA</em><small>50 unidades · 0,69 €/un.</small></span>
@@ -572,7 +582,7 @@
                 </a>
               </li>
               <li class="carousel__slide">
-                <a class="product-card" href="#">
+                <a class="product-card" href="produto.html?id=esferografica-person">
                   <span class="product-card__media"><img src="assets/img/pen-skipper.png" alt="Esferográfica Person c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
                   <span class="product-card__name">Esferográfica Person c/ Personalização</span>
                   <span class="product-card__price"><b>37,80 €</b> <em>s/ IVA</em><small>50 unidades · 0,76 €/un.</small></span>
@@ -582,7 +592,7 @@
                 </a>
               </li>
               <li class="carousel__slide">
-                <a class="product-card" href="#">
+                <a class="product-card" href="produto.html?id=esferografica-buastel">
                   <span class="product-card__media"><img src="assets/img/pen-buastel.png" alt="Esferográfica Buastel c/ Personalização" loading="lazy" decoding="async" width="300" height="300"></span>
                   <span class="product-card__name">Esferográfica Buastel c/ Personalização</span>
                   <span class="product-card__price"><b>48,80 €</b> <em>s/ IVA</em><small>50 unidades · 0,98 €/un.</small></span>
@@ -593,10 +603,10 @@
               </li>
             </ul>
             <button class="carousel__arrow carousel__arrow--prev" type="button" aria-label="Produtos anteriores">
-              <svg class="icon"><use href="#i-left"/></svg>
+              <svg class="icon" viewBox="0 0 24 24"><use href="#i-left"/></svg>
             </button>
             <button class="carousel__arrow carousel__arrow--next" type="button" aria-label="Próximos produtos">
-              <svg class="icon"><use href="#i-right"/></svg>
+              <svg class="icon" viewBox="0 0 24 24"><use href="#i-right"/></svg>
             </button>
           </div>
           <div class="carousel__dots" role="group" aria-label="Navegação dos produtos"></div>
@@ -608,21 +618,131 @@
           <h2 class="why__title" id="why-title">Porquê escolher a Copy Center?</h2>
           <div class="why__grid">
             <div class="why__item">
-              <svg class="why__icon"><use href="#i-truck"/></svg>
+              <svg class="why__icon" viewBox="0 0 24 24"><use href="#i-truck"/></svg>
               <h3>Entregas Rápidas</h3>
             </div>
             <div class="why__item">
-              <svg class="why__icon"><use href="#i-users"/></svg>
+              <svg class="why__icon" viewBox="0 0 24 24"><use href="#i-users"/></svg>
               <h3>Equipa com mais de 30 anos de Experiência</h3>
             </div>
             <div class="why__item">
-              <svg class="why__icon"><use href="#i-file-check"/></svg>
+              <svg class="why__icon" viewBox="0 0 24 24"><use href="#i-file-check"/></svg>
               <h3>Verificação de Ficheiros Gratuita</h3>
             </div>
             <div class="why__item">
-              <svg class="why__icon"><use href="#i-shield-check"/></svg>
+              <svg class="why__icon" viewBox="0 0 24 24"><use href="#i-shield-check"/></svg>
               <h3>Garantia de Qualidade</h3>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="client-reviews" aria-labelledby="client-reviews-title">
+        <div class="client-reviews__inner">
+          <div class="client-reviews__head">
+            <h2 class="client-reviews__title" id="client-reviews-title">O que dizem os nossos clientes</h2>
+            <p class="client-reviews__subtitle">
+              <svg class="client-reviews__gicon" aria-hidden="true" viewBox="0 0 48 48"><use href="#i-google"/></svg>
+              Avaliações reais deixadas no Google Maps · <strong>4,2 ★</strong> · 397 opiniões
+            </p>
+          </div>
+
+          <ul class="client-reviews__grid" data-reviews-track>
+            <li class="review-card">
+              <div class="review-card__top">
+                <span class="review-card__avatar-wrap" data-initials="MP"><img class="review-card__avatar" src="https://lh3.googleusercontent.com/a/ACg8ocJ_qk8zd2T9kHBGLygQYDZGxFsit4n1wvAiSho4h4cNR36rK5M=s64-c-rp-mo-br100" alt="" loading="lazy" referrerpolicy="no-referrer" width="44" height="44" onerror="this.remove()"></span>
+                <div class="review-card__who">
+                  <span class="review-card__name">Mariana Pires dos Santos</span>
+                  <span class="review-card__meta">3 críticas</span>
+                </div>
+                <svg class="review-card__quote" aria-hidden="true"><use href="#i-quote"/></svg>
+              </div>
+              <div class="review-card__stars" aria-label="5 em 5 estrelas">★★★★★</div>
+              <p class="review-card__text">Enviei mensagem para imprimir 4 cadernos ao 12:30h, consegui ter as sebentas meia hora depois, atendimento super simpático, pediram desculpa pela espera mas tinham o estabelecimento cheio e apenas dois funcionários por isso super compreensível! Preços incríveis recomendo.</p>
+              <span class="review-card__date">há 11 meses</span>
+            </li>
+
+            <li class="review-card">
+              <div class="review-card__top">
+                <span class="review-card__avatar-wrap" data-initials="SV"><img class="review-card__avatar" src="https://lh3.googleusercontent.com/a-/ALV-UjXstTxiHWWod_3dMO_vURMwus4EJZpzKhTAz6F72zE9cbOlVzIW=s64-c-rp-mo-br100" alt="" loading="lazy" referrerpolicy="no-referrer" width="44" height="44" onerror="this.remove()"></span>
+                <div class="review-card__who">
+                  <span class="review-card__name">Silvie Vieira</span>
+                  <span class="review-card__meta">2 críticas</span>
+                </div>
+                <svg class="review-card__quote" aria-hidden="true"><use href="#i-quote"/></svg>
+              </div>
+              <div class="review-card__stars" aria-label="5 em 5 estrelas">★★★★★</div>
+              <p class="review-card__text">Há quase 10 anos é o meu lugar de eleição para impressões seja do que for. A qualidade é incrível e nunca fiquei desapontada. Os preços praticados são excelentes.</p>
+              <span class="review-card__date">há 2 anos</span>
+            </li>
+
+            <li class="review-card">
+              <div class="review-card__top">
+                <span class="review-card__avatar-wrap" data-initials="IC"><img class="review-card__avatar" src="https://lh3.googleusercontent.com/a-/ALV-UjX4KpdF8A5Vahw5aWSK-61hlTKqg6gKYAw5zqI1dx1nzVLXlhrI=s64-c-rp-mo-ba12-br100" alt="" loading="lazy" referrerpolicy="no-referrer" width="44" height="44" onerror="this.remove()"></span>
+                <div class="review-card__who">
+                  <span class="review-card__name">Isadora Crespo</span>
+                  <span class="review-card__meta">Guia local</span>
+                </div>
+                <svg class="review-card__quote" aria-hidden="true"><use href="#i-quote"/></svg>
+              </div>
+              <div class="review-card__stars" aria-label="5 em 5 estrelas">★★★★★</div>
+              <p class="review-card__text">Recomendo! Fazem todos os tipos de impressão, são muito rápidos e simpáticos. A proximidade com a Universidade facilita para impressões antes ou depois das aulas.</p>
+              <span class="review-card__date">há 5 anos</span>
+            </li>
+
+            <li class="review-card">
+              <div class="review-card__top">
+                <span class="review-card__avatar-wrap" data-initials="SM"><img class="review-card__avatar" src="" alt="" loading="lazy" referrerpolicy="no-referrer" width="44" height="44" onerror="this.remove()"></span>
+                <div class="review-card__who">
+                  <span class="review-card__name">Stephany Moniz</span>
+                  <span class="review-card__meta">Guia local · 15 críticas</span>
+                </div>
+                <svg class="review-card__quote" aria-hidden="true"><use href="#i-quote"/></svg>
+              </div>
+              <div class="review-card__stars" aria-label="4 em 5 estrelas">★★★★<span class="review-card__star--off">★</span></div>
+              <p class="review-card__text">Tem muitas coisas, é uma ótima loja, só que as fotocópias são um pouco caras.</p>
+              <span class="review-card__date">há 4 anos</span>
+              <div class="review-card__reply">
+                <span class="review-card__reply-author">CopyCenter Centro de Cópias (proprietário)</span>
+                <p class="review-card__reply-text">Obrigada, tentamos ter o melhor preço mas está difícil.</p>
+              </div>
+            </li>
+
+            <li class="review-card">
+              <div class="review-card__top">
+                <span class="review-card__avatar-wrap" data-initials="JA"><img class="review-card__avatar" src="https://lh3.googleusercontent.com/a/ACg8ocJPk5GsYxybdRT81XnzXoik57ZMBsHCT3jhopF4tr1W9nBfIw=s64-c-rp-mo-ba12-br100" alt="" loading="lazy" referrerpolicy="no-referrer" width="44" height="44" onerror="this.remove()"></span>
+                <div class="review-card__who">
+                  <span class="review-card__name">José António</span>
+                  <span class="review-card__meta">Guia local · 11 críticas</span>
+                </div>
+                <svg class="review-card__quote" aria-hidden="true"><use href="#i-quote"/></svg>
+              </div>
+              <div class="review-card__stars" aria-label="4 em 5 estrelas">★★★★<span class="review-card__star--off">★</span></div>
+              <p class="review-card__text">Bons preços. Falta é serem mais ágeis na entrega das fotocópias.</p>
+              <span class="review-card__date">há 7 anos</span>
+            </li>
+
+            <li class="review-card">
+              <div class="review-card__top">
+                <span class="review-card__avatar-wrap" data-initials="MP"><img class="review-card__avatar" src="https://lh3.googleusercontent.com/a-/ALV-UjUIJrrUE_JK3eP_SrjFuKDzvyUSmdoPahwRLLPEw5CiFTkZ_eqQ6g=s64-c-rp-mo-br100" alt="" loading="lazy" referrerpolicy="no-referrer" width="44" height="44" onerror="this.remove()"></span>
+                <div class="review-card__who">
+                  <span class="review-card__name">Marisa Pezzi</span>
+                  <span class="review-card__meta">2 críticas</span>
+                </div>
+                <svg class="review-card__quote" aria-hidden="true"><use href="#i-quote"/></svg>
+              </div>
+              <div class="review-card__stars" aria-label="3 em 5 estrelas">★★★<span class="review-card__star--off">★★</span></div>
+              <p class="review-card__text">Não têm Multibanco.</p>
+              <span class="review-card__date">há 7 anos</span>
+            </li>
+          </ul>
+
+          <div class="client-reviews__actions">
+            <a class="client-reviews__button" href="https://maps.app.goo.gl/YYydRnyrPfehxvtr9" target="_blank" rel="noopener">
+              <svg class="client-reviews__gicon" aria-hidden="true" viewBox="0 0 48 48"><use href="#i-google"/></svg>
+              Ver todas as avaliações no Google
+              <svg class="icon" viewBox="0 0 24 24"><use href="#i-up-right"/></svg>
+            </a>
           </div>
         </div>
       </section>
@@ -631,19 +751,19 @@
     <footer class="site-footer">
       <ul class="footer-trust">
         <li>
-          <span class="footer-trust__icon footer-trust__icon--pink"><svg class="icon"><use href="#i-star"/></svg></span>
-          <div><strong>4,9 no Google</strong><span>128 opiniões de clientes</span></div>
+          <span class="footer-trust__icon footer-trust__icon--pink"><svg class="icon" viewBox="0 0 24 24"><use href="#i-star"/></svg></span>
+          <div><strong>4,2 no Google</strong><span>397 opiniões de clientes</span></div>
         </li>
         <li>
-          <span class="footer-trust__icon footer-trust__icon--orange"><svg class="icon"><use href="#i-layers"/></svg></span>
+          <span class="footer-trust__icon footer-trust__icon--orange"><svg class="icon" viewBox="0 0 24 24"><use href="#i-layers"/></svg></span>
           <div><strong>Produção personalizada</strong><span>Feito à medida de cada encomenda</span></div>
         </li>
         <li>
-          <span class="footer-trust__icon footer-trust__icon--green"><svg class="icon"><use href="#i-shield-check"/></svg></span>
+          <span class="footer-trust__icon footer-trust__icon--green"><svg class="icon" viewBox="0 0 24 24"><use href="#i-shield-check"/></svg></span>
           <div><strong>Pagamento seguro</strong><span>MB WAY, Multibanco ou transferência</span></div>
         </li>
         <li>
-          <span class="footer-trust__icon footer-trust__icon--blue"><svg class="icon"><use href="#i-chat"/></svg></span>
+          <span class="footer-trust__icon footer-trust__icon--blue"><svg class="icon" viewBox="0 0 24 24"><use href="#i-chat"/></svg></span>
           <div><strong>Apoio antes e depois da compra</strong><span>Por WhatsApp, telefone ou email</span></div>
         </li>
       </ul>
@@ -651,10 +771,15 @@
       <div class="footer-main">
         <div class="footer-grid">
           <section class="footer-brand">
-            <a class="footer-brand__logo-link" href="#" aria-label="Copy Center — início">
+            <a class="footer-brand__logo-link" href="index.html" aria-label="Copy Center — início">
               <img class="footer-brand__logo" src="assets/img/logo.svg" alt="Copy Center" width="72" height="72">
             </a>
             <p>Impressão e personalização com atenção ao detalhe.</p>
+            <ul class="footer-social" aria-label="Redes sociais da Copy Center">
+              <li><a href="https://www.facebook.com/centro.copias.1/" target="_blank" rel="noopener" aria-label="Facebook da Copy Center"><svg class="icon" viewBox="0 0 24 24"><use href="#i-facebook"/></svg></a></li>
+              <li><a href="https://www.instagram.com/copycenter_entrecampos/" target="_blank" rel="noopener" aria-label="Instagram da Copy Center"><svg class="icon" viewBox="0 0 24 24"><use href="#i-instagram"/></svg></a></li>
+              <li><a href="https://www.waze.com/live-map/directions/pt/lisboa/lisboa/copycenter-centro-de-copias?to=place.ChIJlWu7ZwQzGQ0Rg36do5DjImA" target="_blank" rel="noopener" aria-label="Ver a Copy Center no Waze"><svg class="icon" viewBox="0 0 24 24"><use href="#i-waze"/></svg></a></li>
+            </ul>
           </section>
           <nav aria-label="Termos e políticas">
             <h3>Informações</h3>
@@ -668,16 +793,16 @@
           <nav aria-label="Sobre a Copy Center">
             <h3>Sobre</h3>
             <ul class="footer-links">
-              <li><a href="#">Quem somos</a></li>
-              <li><a href="#">Contactos</a></li>
-              <li><a href="#">FAQ</a></li>
+              <li><a href="sobre.html">Quem somos</a></li>
+              <li><a href="contactos.html">Contactos</a></li>
+              <li><a href="faq.html">FAQ</a></li>
             </ul>
           </nav>
           <section class="footer-contact">
             <h3>Contactos</h3>
-            <a href="tel:+351968897834"><svg class="icon"><use href="#i-phone"/></svg><span>+351 968 897 834</span></a>
-            <a href="mailto:copycenter@live.com.pt"><svg class="icon"><use href="#i-mail"/></svg><span>copycenter@live.com.pt</span></a>
-            <p class="footer-address"><svg class="icon"><use href="#i-pin"/></svg><span>Av. das Forças Armadas 63, 1600-312 Lisboa</span></p>
+            <a href="tel:+351968897834"><svg class="icon" viewBox="0 0 24 24"><use href="#i-phone"/></svg><span>+351 968 897 834</span></a>
+            <a href="mailto:copycenter@live.com.pt"><svg class="icon" viewBox="0 0 24 24"><use href="#i-mail"/></svg><span>copycenter@live.com.pt</span></a>
+            <p class="footer-address"><svg class="icon" viewBox="0 0 24 24"><use href="#i-pin"/></svg><span>Av. das Forças Armadas 63, 1600-312 Lisboa</span></p>
           </section>
         </div>
         <div class="footer-copy">
@@ -687,11 +812,12 @@
       </div>
     </footer>
 
-    <a class="chat" href="#" aria-label="Falar por WhatsApp">
-      <svg class="icon"><use href="#i-chat"/></svg>
+    <a class="chat" href="https://wa.me/351968897834" target="_blank" rel="noopener" aria-label="Falar por WhatsApp">
+      <svg class="icon" viewBox="0 0 24 24"><use href="#i-chat"/></svg>
     </a>
   </div>
 
+  <script src="catalogo-data.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
